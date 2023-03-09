@@ -1,17 +1,88 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'fonts';
- *   |         ^^^^^^^
- *   '
- *   reset.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'fonts';\a   \2502          ^^^^^^^\a   \2575 \a   reset.scss 1:9  root stylesheet";
+@import 'fonts.css';
+:root {
+  /* Visual colors */
+  --clr-primary: hsl(213, 78%, 38%);
+  --clr-background: hsl(0, 0%, 96%);
+  --clr-footer: hsl(0, 0%, 12%);
+  /* Text colors */
+  --clr-text-primary: hsl(0, 0%, 0%);
+  --clr-text-secondary: var(--clr-background);
+  /* Answer colors */
+  --clr-answer-aa: hsl(103, 52%, 35%);
+  --clr-answer-pa: hsl(103, 52%, 50%);
+  --clr-answer-neutral: hsl(0, 0%, 65%);
+  --clr-answer-pd: hsl(3, 90%, 50%);
+  --clr-answer-ad: hsl(3, 90%, 35%);
 }
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list stylesheets on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+html,
+body {
+  height: 100%;
+  background-color: var(--clr-background);
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default stylesheets */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*# sourceMappingURL=reset.css.map */
