@@ -1,0 +1,22 @@
+<svg width="488" height="488" viewBox="0 0 488 488" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="5" y="5" width="478" height="478" stroke="black" stroke-width="2"/>
+<rect width="396" height="397" fill="#F5F5F5"/>
+<rect x="91" y="92" width="397" height="396" fill="#F5F5F5"/>
+<rect x="4.5" y="4.5" width="329" height="299" fill="#F5F5F5"/>
+<rect x="4.5" y="4.5" width="329" height="299" fill="url(#pattern0)"/>
+<rect x="4.5" y="4.5" width="329" height="299" stroke="#F5F5F5"/>
+<rect x="334.5" y="304.5" width="149" height="179" fill="#F5F5F5"/>
+<rect x="334.5" y="304.5" width="149" height="179" fill="url(#pattern1)"/>
+<rect x="334.5" y="304.5" width="149" height="179" stroke="#F5F5F5"/>
+<rect x="34" y="34" width="420" height="420" fill="#F5F5F5"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0363636" height="0.04">
+<use xlink:href="#image0_733_144" transform="scale(0.0030303 0.00333333)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0666667" height="0.0555556">
+<use xlink:href="#image1_733_144" transform="scale(0.00166667 0.00138889)"/>
+</pattern>
+<image id="image0_733_144" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB7czBDQAABENRYnBGsxm1gd4cNPm3l5rs5iiRbnGheHwHC4nnnMLVyXcXLmXXjQMAAAAASUVORK5CYII="/>
+<image id="image1_733_144" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7dfLDYMwEATQSSqgBJfmTkILqQhSAemAUmAtGfE5ABa214h50tyMmNNKA8wqyUfSSAafTmJRACPpMRfbpvdv1OyVW5asoMDiuNyUGgo6nC/YILOX/3HoN9m8UThXsA14/0dmruAv4P0XCtzpOHtm1BgUfqgnFuuz485KDaUDTUREaXHjXMGNc0XUjZNiX0TdOLfYJLG1AW8PN06Kgtw4MRhw4xARPcMIpxKNbc97aK4AAAAASUVORK5CYII="/>
+</defs>
+</svg>
