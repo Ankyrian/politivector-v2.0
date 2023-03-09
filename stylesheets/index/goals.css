@@ -1,0 +1,14 @@
+#goals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#goals .paragraph-item {
+  margin-top: var(--fs-body);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--fs-body) / 2);
+  font-size: var(--fs-body);
+}
+
+/*# sourceMappingURL=goals.css.map */

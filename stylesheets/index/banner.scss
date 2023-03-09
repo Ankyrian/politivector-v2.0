@@ -1,0 +1,23 @@
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+
+  #title {
+    font-size: var(--fs-primary);
+    line-height: 100%;
+  }
+
+  #subtitle {
+    font-size: var(--fs-secondary);
+  }
+}
+
+@media screen and (min-width: 50em) {
+  #banner {
+    justify-content: flex-end;
+
+    width: 90%;
+  }
+}

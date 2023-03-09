@@ -1,0 +1,19 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--fs-body) * 1.5);
+
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--fs-body) * 0.5);
+
+    .content-title {
+      font-size: var(--fs-quaternary);
+    }
+
+    .content-text {
+      font-size: var(--fs-body);
+    }
+  }
+}

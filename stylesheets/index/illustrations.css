@@ -1,0 +1,53 @@
+#hero,
+#visual-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: none;
+}
+#hero .mobile,
+#visual-info .mobile {
+  height: 100%;
+}
+#hero .desktop,
+#visual-info .desktop {
+  display: none;
+}
+
+#hero .desktop {
+  width: 100%;
+  max-height: 100%;
+}
+
+#visual-info .desktop {
+  width: 80%;
+  max-height: 100%;
+}
+
+#visual-goals .desktop {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  padding-bottom: 15%;
+}
+
+@media screen and (min-width: 50em) {
+  #hero .mobile,
+#visual-info .mobile,
+#visual-goals .mobile {
+    display: none;
+  }
+  #hero .desktop,
+#visual-info .desktop,
+#visual-goals .desktop {
+    display: block;
+  }
+  #visual-goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    pointer-events: none;
+  }
+}
+
+/*# sourceMappingURL=illustrations.css.map */

@@ -1,0 +1,146 @@
+#menu {
+  #menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    transition: height 350ms;
+
+    list-style: none;
+    overflow: clip;
+
+    width: 100%;
+
+    text-align: center;
+
+    li {
+      display: flex;
+      justify-content: center;
+
+      .link {
+        position: relative;
+        display: inline-block;
+        font-size: var(--fs-nav);
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background-color: var(--clr-text-primary);
+          border-radius: 4px;
+          scale: 0 1;
+          transform-origin: right;
+          transition: scale 250ms;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:hover::before {
+          scale: 1;
+          transform-origin: left;
+        }
+      }
+
+      #language-selector {
+        display: inline-block;
+        width: 50px;
+
+        margin-left: 12px;
+
+        .language {
+          display: flex;
+          justify-content: center;
+
+          .flag {
+            height: 24px;
+            cursor: pointer;
+          }
+
+          .option:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        .selected {
+          cursor: pointer;
+        }
+
+        .invisible {
+          visibility: hidden;
+        }
+
+        .hidden {
+          display: none;
+        }
+
+        #language-dropdown {
+          position: absolute;
+          max-height: 0;
+          width: 50px;
+          overflow: hidden;
+          transition: max-height 200ms ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.arrow {
+  margin-top: 7px;
+  margin-left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid var(--clr-text-primary);
+  border-bottom: 5px solid transparent;
+}
+
+.down {
+  animation: rotate-down 200ms ease-in-out;
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.right {
+  animation: rotate-right 200ms ease-in-out;
+}
+
+@keyframes rotate-down {
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes rotate-right {
+  0% {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  100% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (min-width: 50em){
+  #menu {
+    #menu-list {
+      flex-direction: row;
+      align-items: center;
+      justify-content: right;
+      gap: 25px;
+
+      height: 100%;
+    }
+  }
+}

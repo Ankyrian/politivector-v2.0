@@ -1,0 +1,67 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(var(--fs-body) * 3);
+  background-color: var(--clr-footer);
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  max-width: 1000px;
+  padding: calc(var(--fs-body) * 3) 0;
+  color: var(--clr-background);
+}
+#footer .footer-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#footer .footer-item,
+#footer .feedback-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fs-body);
+  font-size: var(--fs-nav);
+}
+#footer .feedback-box {
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+#footer .feedback-box label {
+  width: 100%;
+}
+#footer .feedback-box form {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5vh;
+}
+#footer .feedback-box form textarea {
+  font-size: var(--fs-nav);
+  color: var(--clr-background);
+  resize: none;
+  width: 100%;
+  height: 95%;
+  min-height: 150px;
+  border: 1.5px solid var(--clr-background);
+  background-color: var(--clr-footer);
+}
+
+@media screen and (min-width: 50em) {
+  footer #footer {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10%;
+  }
+  footer #footer .feedback-box {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

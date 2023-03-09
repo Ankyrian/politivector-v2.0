@@ -1,0 +1,53 @@
+header {
+  height: 100%;
+  min-height: 50px;
+  max-height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #home-icon-container {
+  display: inline-block;
+  width: min-content;
+  height: 80%;
+  pointer-events: auto;
+  cursor: pointer;
+}
+header #home-icon-container #home-icon {
+  display: block;
+  height: 100%;
+  pointer-events: none;
+  max-width: none;
+}
+header #menu-icon {
+  cursor: pointer;
+  height: 80%;
+  max-width: 75px;
+}
+header #menu-icon .line {
+  transform-origin: center;
+}
+
+.close .top {
+  transform: translateY(25%);
+  rotate: 45deg;
+}
+.close .middle {
+  opacity: 0;
+}
+.close .bottom {
+  transform: translateY(-25%);
+  rotate: -45deg;
+}
+
+@media screen and (min-width: 50em) {
+  header #home-icon {
+    height: 75%;
+  }
+  header #menu-icon {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

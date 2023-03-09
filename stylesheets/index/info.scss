@@ -1,0 +1,48 @@
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .accordion-item {
+    margin-top: var(--fs-body);
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-body);
+    width: 100%;
+
+    .accordion-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      width: 100%;
+
+      cursor: pointer;
+
+      transition: scale 200ms ease-in-out;
+
+      .arrow {
+        margin-top: 0;
+      }
+
+      p {
+        font-weight: var(--fw-semibold);
+        font-size: var(--fs-body);
+      }
+
+      &:hover {
+        scale: 1.01;
+      }
+    }
+
+    .accordion-text {
+      overflow: clip;
+      font-size: var(--fs-body);
+      height: 0;
+
+      cursor: default;
+
+      transition: height 300ms ease-in-out;
+    }
+  }
+}

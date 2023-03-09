@@ -1,0 +1,21 @@
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 25px;
+  padding: 25vh 0 20vh 0;
+  font-size: var(--fs-primary);
+}
+#banner .downward-arrow {
+  height: 7.5vh;
+}
+
+@media screen and (min-width: 50em) {
+  #banner {
+    padding: 23vh 0 15vh 0;
+  }
+}
+
+/*# sourceMappingURL=banner.css.map */
