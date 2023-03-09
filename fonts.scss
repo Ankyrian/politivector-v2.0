@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  /* Font rules */
+  --font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  color: var(--clr-text-primary);
+  font-family: var(--font-family);
+
+  --fs-nav: 1.0rem;
+  --fs-body: 1.2rem;
+  --fs-button: 1.2rem;
+  --fs-quaternary: 1.4rem;
+  --fs-tertiary: 1.6rem;
+  --fs-secondary: 1.4rem;
+  --fs-primary: 2.1rem;
+  --fs-404: 9.0rem;
+
+  @media screen and (min-width: 370px) {
+    --fs-nav: 1.2rem;
+    --fs-body: 1.35rem;
+    --fs-button: 1.35rem;
+    --fs-quaternary: 1.6rem;
+    --fs-tertiary: 1.8rem;
+    --fs-secondary: 1.6rem;
+    --fs-primary: 2.5rem;
+    --fs-404: 9.0rem;
+  }
+
+  @media screen and (min-width: 400px) {
+    --fs-nav: 1.2rem;
+    --fs-body: 1.5rem;
+    --fs-button: 1.5rem;
+    --fs-quaternary: 1.8rem;
+    --fs-tertiary: 2.1rem;
+    --fs-secondary: 1.75rem;
+    --fs-primary: 2.75rem;
+    --fs-404: 9.0rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    --fs-nav: 1.2rem;
+    --fs-body: 1.2rem;
+    --fs-button: 1.4rem;
+    --fs-quaternary: 1.6rem;
+    --fs-tertiary: 1.8rem;
+    --fs-secondary: 1.6rem;
+    --fs-primary: 3.2rem;
+    --fs-404: 9.0rem;
+  }
+
+
+}
+
+.semi-bold {
+  font-weight: var(--fw-semibold);
+}
+
+.section-title {
+  font-size: var(--fs-tertiary);
+}
