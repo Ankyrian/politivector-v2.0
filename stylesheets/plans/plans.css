@@ -1,8 +1,9 @@
-@import "/stylesheets/buttons.css";
-@import "/stylesheets/footer.css";
-@import "/stylesheets/menu.css";
-@import "/stylesheets/nav.css";
-@import "/stylesheets/questions/question.css";
+@import "/stylesheets/components/buttons.css";
+@import "/stylesheets/components/footer.css";
+@import "/stylesheets/components/menu.css";
+@import "/stylesheets/components/nav.css";
+@import "/stylesheets/plans/banner.css";
+@import "/stylesheets/plans/content.css";
 body {
   margin: 8px 0 0;
 }
@@ -19,7 +20,8 @@ body {
 
 #nav,
 #menu,
-#question {
+#banner,
+#content {
   grid-column: 1/span 5;
 }
 
@@ -36,12 +38,20 @@ body {
   transition: height 300ms ease-in-out;
 }
 
-#question {
+#banner {
   order: 2;
   height: 80vh;
   min-height: 200px;
   max-height: 700px;
-  margin-top: 2.5vh;
+  margin: 2.5vh 0 7.5vh 0;
+  background: url("/assets/plans/mobile/banner.svg") center no-repeat;
+  background-size: contain;
+}
+
+#content {
+  order: 3;
+  height: auto;
+  margin-bottom: 10vh;
 }
 
 footer {
@@ -62,15 +72,15 @@ footer {
     max-height: 75px;
     transition: none;
   }
-  #question {
+  #banner {
     grid-column: 1/span 5;
     height: 70vh;
-    margin-top: 7.5vh;
-    margin-bottom: 7.5vh;
+    margin: 5vh 0 15vh 0;
+    background-image: url("/assets/plans/desktop/banner.svg");
   }
   footer {
     height: auto;
   }
 }
 
-/*# sourceMappingURL=questions.css.map */
+/*# sourceMappingURL=plans.css.map */

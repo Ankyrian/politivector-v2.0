@@ -1,11 +1,8 @@
-@import "/stylesheets/buttons.css";
-@import "/stylesheets/footer.css";
-@import "/stylesheets/menu.css";
-@import "/stylesheets/nav.css";
-
-@import "/stylesheets/plans/banner.css";
-@import "/stylesheets/plans/content.css";
-
+@import "/stylesheets/components/buttons.css";
+@import "/stylesheets/components/footer.css";
+@import "/stylesheets/components/menu.css";
+@import "/stylesheets/components/nav.css";
+@import "/stylesheets/questions/question.css";
 body {
   margin: 8px 0 0;
 }
@@ -22,9 +19,8 @@ body {
 
 #nav,
 #menu,
-#banner,
-#content {
-  grid-column: 1 / span 5;
+#question {
+  grid-column: 1/span 5;
 }
 
 #nav {
@@ -37,27 +33,15 @@ body {
 #menu {
   overflow: clip;
   order: 1;
-
   transition: height 300ms ease-in-out;
 }
 
-#banner {
+#question {
   order: 2;
   height: 80vh;
   min-height: 200px;
   max-height: 700px;
-
-  margin: 2.5vh 0 7.5vh 0;
-
-  background: url("/assets/plans/mobile/banner.svg") center no-repeat;
-  background-size: contain;
-}
-
-#content {
-  order: 3;
-  height: auto;
-
-  margin-bottom: 10vh;
+  margin-top: 2.5vh;
 }
 
 footer {
@@ -68,28 +52,25 @@ footer {
 
 @media screen and (min-width: 50em) {
   #nav {
-    grid-column: 1 / span 1;
+    grid-column: 1/span 1;
     height: 10vh;
   }
-
   #menu {
-    grid-column: 2 / span 4;
+    grid-column: 2/span 4;
     height: 10vh;
     min-height: 50px;
     max-height: 75px;
-
     transition: none;
   }
-
-  #banner {
-    grid-column: 1 / span 5;
+  #question {
+    grid-column: 1/span 5;
     height: 70vh;
-    margin: 5vh 0 15vh 0;
-
-    background-image: url("/assets/plans/desktop/banner.svg");
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
   }
-
   footer {
     height: auto;
   }
 }
+
+/*# sourceMappingURL=questions.css.map */
