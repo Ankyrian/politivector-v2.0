@@ -1,10 +1,10 @@
 {
   "banner-title": "Get a sense of your <br><span class=\"semi-bold\">ideology</span> with <span class=\"semi-bold\">Politivector</span>.",
   "banner-subtitle": "A global test designed for a global audience to better comprehend where they stand.",
-  "banner-buttons-primary": "Get Started",
-  "banner-buttons-secondary": "Learn More",
+  "banner-button-primary": "Get Started",
+  "banner-button-secondary": "Learn More",
 
-  "features-title": "<p class=\"section-title\">All ideologies.<br><span class=\"semi-bold\">One political test.</span></p>",
+  "features-title": "All ideologies.<br><span class=\"semi-bold\">One political test.</span>",
   "feature-comprehensive-title": "Fully<br>comprehensive",
   "feature-comprehensive-text": "We evaluate your answers across 24 ideologies, the most numerous among common tests.",
   "feature-international-title": "International<br>questions",
@@ -14,7 +14,7 @@
   "feature-evolving-title": "Constantly<br>evolving",
   "feature-evolving-text": "We do our best to stay up-to-date, and renovate the test according to the results you provide.",
 
-  "goals-title": "<p class=\"section-title\">What do we plan<br>to <span class=\"semi-bold\">accomplish</span>?</p>",
+  "goals-title": "What do we plan<br>to <span class=\"semi-bold\">accomplish</span>?",
   "goals-experience-title": "Provide an experience",
   "goals-experience-text": "This test is a great resource for newcomers to politics to feel their initial beliefs, compare their results with those around them, and get insight on their values. We expect our users to use Politivector as a starting point for their journey to understanding the world, or consider it as the periodic inspection of their ideologies.",
   "goals-data-title": "Gather data",

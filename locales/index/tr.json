@@ -1,10 +1,10 @@
 {
   "banner-title": "<span class=\"semi-bold\">Politivector</span> ile <br><span class=\"semi-bold\">ideolojinizin</span> farkına varın.",
   "banner-subtitle": "Küresel bir kitlenin tutumlarını anlamaları için tasarlanmış küresel bir test.",
-  "banner-buttons-primary": "Başla",
-  "banner-buttons-secondary": "Daha Fazlası",
+  "banner-button-primary": "Başla",
+  "banner-button-secondary": "Daha Fazlası",
 
-  "features-title": "<p class=\"section-title\">Tüm ideolojiler.<br><span class=\"semi-bold\">Tek bir siyasi test.</span></p>",
+  "features-title": "Tüm ideolojiler.<br><span class=\"semi-bold\">Tek bir siyasi test.</span>",
   "feature-comprehensive-title": "Tam<br>kapsamlı",
   "feature-comprehensive-text": "Cevaplarınızı 24 ideoloji üzerinden değerlendiriyoruz, bu sayı diğer testler arasındaki ün yüksek sayı.",
   "feature-international-title": "Uluslararası<br>sorular",
@@ -14,7 +14,7 @@
   "feature-evolving-title": "Sürekli<br>gelişir",
   "feature-evolving-text": "Güncel kalmak için elimizden gelenin en iyisini yapıyor ve testi sizden gelen sonuçlara göre yeniliyoruz.",
 
-  "goals-title": "<p class=\"section-title\">Amacımız<br> nedir?</p>",
+  "goals-title": "Ne <span class=\"semi-bold\">başarmayı</span><br>amaçlıyoruz?",
   "goals-experience-title": "Bir deneyim sağlamak",
   "goals-experience-text": "Bu test, siyasete yeni başlayanlar için temel inançlarını hissetmeleri, sonuçlarını etraflarındakilerle karşılaştırmaları ve değerlerine dair içgörü elde etmeleri için harika bir kaynaktır. Kullanıcılarımızın Politivector'ü, dünyayı anlama yolculuklarının başlangıç noktası ya da ideolojilerinin periyodik denetimini olarak kullanmalarını bekliyoruz.",
   "goals-data-title": "Veri toplamak",
