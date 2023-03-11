@@ -4,6 +4,7 @@ function createLanguageSelector() {
 
     if (activeLanguage == null) {
         activeLanguage = languageList[0];
+        window.localStorage.setItem('lang', activeLanguage);
     }
 
     const languageSelector = createHTMLElement('div', {'id': 'language-selector'});
@@ -91,6 +92,8 @@ function createLanguageSelector() {
         selected.setAttribute('id', `${activeLanguage}-selected`);
 
         window.localStorage.setItem('lang', activeLanguage);
+
+        changeLanguage();
     }
 }
 
