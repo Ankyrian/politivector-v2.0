@@ -54,6 +54,7 @@ function createMenu(menuIcon) {
     function LinkObject(name, href) {
         this.name = name;
         this.href = href;
+        this.locale = `menu-${name.toLowerCase().split(' ').join('-')}`;
     }
 
     const linkList = [
@@ -63,7 +64,7 @@ function createMenu(menuIcon) {
 
     for (const link of linkList) {
         const li = document.createElement('li');
-        const p = createHTMLElement('a', {'class': 'link', 'href': link.href});
+        const p = createHTMLElement('a', {'class': 'link', 'href': link.href, 'data-locale': link.locale});
         p.innerText = link.name;
 
         li.appendChild(p);
