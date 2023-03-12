@@ -15,7 +15,6 @@ class Info {
 
 class Accordion {
     constructor(locale, data) {
-        this.locale = locale;
         this.data = data;
         this.clickables = [];
         this.textHeight = 0;

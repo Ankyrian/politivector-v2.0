@@ -1,6 +1,5 @@
 class Footer {
     constructor(locale, data) {
-        this.locale = locale;
         this.data = data;
 
         function Item(page, links) {
