@@ -55,12 +55,12 @@ class Footer {
         for (const itemObject of this.items) {
             const item = Util.createObjectHTML('div', {'class': 'footer-item'});
 
-            const page = Util.createObjectHTML('a', {'href': itemObject.page.href, 'class': 'semi-bold', 'data-locale': itemObject.page.name});
+            const page = Util.createObjectHTML('a', {'href': itemObject.page.href, 'class': 'semi-bold', 'data-locale': `footer-${itemObject.page.name}`});
             page.innerText = this.data[page.getAttribute('data-locale')];
             item.appendChild(page);
 
             for (const section of itemObject.links) {
-                const sectionAnchor = Util.createObjectHTML('a', {'href': `${itemObject.page.href}#${section.href}`, 'data-locale': section.name});
+                const sectionAnchor = Util.createObjectHTML('a', {'href': `${itemObject.page.href}#${section.href}`, 'data-locale': `footer-${section.name}`});
                 sectionAnchor.innerText = this.data[sectionAnchor.getAttribute('data-locale')];
                 item.appendChild(sectionAnchor);
             }
@@ -73,7 +73,7 @@ class Footer {
 
     createFeedbackBox() {
         const feedbackBox = Util.createObjectHTML('div', {'class': 'feedback-box'});
-        const label = Util.createObjectHTML('label', {'for': 'feedback', 'class': 'semi-bold', 'data-locale': 'feedback-title'});
+        const label = Util.createObjectHTML('label', {'for': 'feedback', 'class': 'semi-bold', 'data-locale': 'footer-feedback-title'});
         label.innerText = this.data[label.getAttribute('data-locale')];
 
         const form = Util.createObjectHTML('form', {'action': '', 'method': 'post'});
@@ -82,7 +82,7 @@ class Footer {
             {
                 'type': 'button',
                 'name': 'submit-feedback',
-                'value': this.data['submit-button'],
+                'value': this.data['footer-submit-button'],
                 'class': 'button secondary'
             });
         form.append(textArea, submitButton);

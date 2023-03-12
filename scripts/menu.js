@@ -72,8 +72,8 @@ class Menu {
 
         for (const link of links) {
             const li = Util.createObjectHTML('li');
-            const a = Util.createObjectHTML('a', {'class': 'link', 'href': link.href, 'data-locale': link.locale});
-            a.innerText = this.data[link.locale];
+            const a = Util.createObjectHTML('a', {'class': 'link', 'href': link.href, 'data-locale': `menu-${link.locale}`});
+            a.innerText = this.data[a.getAttribute('data-locale')];
 
             li.appendChild(a);
             this.list.appendChild(li);

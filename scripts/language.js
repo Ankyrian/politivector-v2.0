@@ -101,6 +101,7 @@ class LanguageSelector {
         this.selected.setAttribute('id', `${this.locale}-selected`);
 
         window.localStorage.setItem('lang', this.locale);
+        window.dispatchEvent(new Event('storage'));
     }
 
     handleClickOut(event, menu) {

@@ -20,22 +20,22 @@ function createSelect(data) {
             'fill': 'var(--clr-primary)'
         }));
 
-    const title = Util.createObjectHTML('p', {'class': 'semi-bold', 'data-locale': 'title'});
+    const title = Util.createObjectHTML('p', {'class': 'semi-bold', 'data-locale': 'test-select-title'});
     title.innerText = data[title.getAttribute('data-locale')];
 
-    const completeButton = Util.createObjectHTML('button', {'class': 'button primary', 'data-locale': 'complete-button'});
+    const completeButton = Util.createObjectHTML('button', {'class': 'button primary', 'data-locale': 'test-select-complete-button'});
     completeButton.innerText = data[completeButton.getAttribute('data-locale')];
-    const completeInfo = Util.createObjectHTML('p', {'class': 'question-count', 'data-locale': 'complete-info'});
+    const completeInfo = Util.createObjectHTML('p', {'class': 'question-count', 'data-locale': 'test-select-complete-info'});
     completeInfo.innerText = data[completeInfo.getAttribute('data-locale')];
 
     completeButton.addEventListener('click', () => {window.location.href = 'questions.html';});
 
-    const divider = Util.createObjectHTML('p', {'data-locale': 'divider'});
+    const divider = Util.createObjectHTML('p', {'data-locale': 'test-select-divider'});
     divider.innerText = data[divider.getAttribute('data-locale')];
 
-    const basicButton = Util.createObjectHTML('button', {'class': 'button secondary', 'data-locale': 'basic-button'});
+    const basicButton = Util.createObjectHTML('button', {'class': 'button secondary', 'data-locale': 'test-select-basic-button'});
     basicButton.innerText = data[basicButton.getAttribute('data-locale')];
-    const basicInfo = Util.createObjectHTML('p', {'class': 'question-count', 'data-locale': 'basic-info'});
+    const basicInfo = Util.createObjectHTML('p', {'class': 'question-count', 'data-locale': 'test-select-basic-info'});
     basicInfo.innerText = data[basicInfo.getAttribute('data-locale')];
 
     basicButton.addEventListener('click', () => {window.location.href = 'questions.html';});

@@ -2,7 +2,7 @@ class Info {
     constructor(locale, data) {
         this.info = Util.createObjectHTML('div', {'id': 'info'});
 
-        const title = Util.createObjectHTML('p', {'class': 'section-title', 'data-locale': 'title'});
+        const title = Util.createObjectHTML('p', {'class': 'section-title', 'data-locale': 'info-title'});
         title.innerHTML = data[title.getAttribute('data-locale')];
         this.info.appendChild(title);
 
@@ -35,7 +35,7 @@ class Accordion {
         const item = Util.createObjectHTML('div', {'class': 'accordion-item'});
 
         const titleDiv = Util.createObjectHTML('div', {'class': 'accordion-title'});
-        const title = Util.createObjectHTML('p', {'data-locale': `accordion-title-${i}`});
+        const title = Util.createObjectHTML('p', {'data-locale': `info-accordion-title-${i}`});
         title.innerText = this.data[title.getAttribute('data-locale')];
         const arrow = Util.createObjectHTML('div', {'class': 'arrow'});
         titleDiv.append(title, arrow);
@@ -43,7 +43,7 @@ class Accordion {
         this.clickables.push(titleDiv);
 
         const textDiv = Util.createObjectHTML('div', {'class': 'accordion-text'});
-        const text = Util.createObjectHTML('p', {'data-locale': `accordion-text-${i}`});
+        const text = Util.createObjectHTML('p', {'data-locale': `info-accordion-text-${i}`});
         text.innerHTML = this.data[text.getAttribute('data-locale')];
         textDiv.appendChild(text);
 
@@ -57,13 +57,20 @@ class Accordion {
             titleDiv.addEventListener('click', () => {
                 this.handleDrop(titleDiv.parentElement);
             });
+        }
 
+        this.resetSizing();
+    }
+
+    resetSizing() {
+        for (const titleDiv of this.clickables) {
             const height = titleDiv.parentElement.children[1].children[0].clientHeight;
             if (height > this.textHeight) {
                 this.textHeight = height;
             }
         }
 
+        this.clickables[1].click();
         this.clickables[0].click();
     }
 

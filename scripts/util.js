@@ -1,9 +1,9 @@
 class Util {
-    static getLocale(locales) {
+    static getLocale() {
         let locale = window.localStorage.getItem('lang');
 
         if (locale == null) {
-            locale = locales[0];
+            locale = this.locales[0];
             window.localStorage.setItem('lang', locale);
         }
 
@@ -15,6 +15,10 @@ class Util {
         return await fetch(localeJSON)
             .then(response => response.json())
             .then(responseJSON => {return responseJSON});
+    }
+
+    static setLocales(locales) {
+        this.locales = locales;
     }
 
     static setMedia(menu, mediaQuery) {
