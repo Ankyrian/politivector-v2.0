@@ -1,14 +1,24 @@
-function changeLanguage() {
-    const lang = window.localStorage.getItem('lang');
+async function changeLanguage() {
+    const locale = Util.getLocale();
+    const textData = await Util.getLocaleJSON(locale);
 
-    const localeJSON = `/locales/${lang}.json`;
+    const elements = document.querySelectorAll('[data-locale]');
+    elements.forEach(element => {
+        const data = textData[element.getAttribute('data-locale')];
 
-    fetch(localeJSON)
-        .then(response => response.json())
-        .then(data => {
-            const elements = document.querySelectorAll('[data-locale]');
-            elements.forEach(elem => {
-                elem.innerHTML = String(data[elem.getAttribute('data-locale')]);
-            });
-        });
+        if (isHTML(data)) {
+            element.innerHTML = data;
+        }
+        else {
+            element.innerText = data;
+        }
+    });
+
+    const feedbackSubmit = document.querySelector('input[name=submit-feedback]');
+    feedbackSubmit.value = textData['footer-submit-button'];
+
+    function isHTML(data) {
+        const re = /<.*>(<\/.*>)*/;
+        return re.test(data);
+    }
 }
