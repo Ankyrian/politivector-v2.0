@@ -1,73 +1,56 @@
 {
-  "menu": {
-    "home": "Anasayfa",
-    "future-plans": "Planlar"
-  },
+  "menu-home": "Anasayfa",
+  "menu-future-plans": "Planlar",
 
-  "test-select": {
-    "title": "Testinizi seçin",
-    "complete-button": "Tam Test",
-    "complete-info": "(120 soru)",
-    "divider": "veya",
-    "basic-button": "Basit Test",
-    "basic-info": "(60 soru)"
-  },
+  "test-select-title": "Testinizi seçin",
+  "test-select-complete-button": "Tam Test",
+  "test-select-complete-info": "(120 soru)",
+  "test-select-divider": "veya",
+  "test-select-basic-button": "Basit Test",
+  "test-select-basic-info": "(60 soru)",
 
-  "banner": {
-    "title": "<span class=\"semi-bold\">Politivector</span> ile<br>birlikte <span class=\"semi-bold\">ideolojinizin</span> farkına varın.",
-    "subtitle": "Küresel bir kitlenin tutumlarını anlamaları için tasarlanmış küresel bir test.",
-    "button-primary": "Başla",
-    "button-secondary": "Daha Fazlası"
-  },
+  "banner-title": "<span class=\"semi-bold\">Politivector</span> ile<br>birlikte <span class=\"semi-bold\">ideolojinizin</span> farkına varın.",
+  "banner-subtitle": "Küresel bir kitlenin tutumlarını anlamaları için tasarlanmış küresel bir test.",
+  "banner-button-primary": "Başla",
+  "banner-button-secondary": "Daha Fazlası",
 
-  "features": {
-    "title": "Tüm ideolojiler.<br><span class=\"semi-bold\">Tek bir siyasi test.</span>",
-    "comprehensive-title": "Tam<br>kapsamlı",
-    "comprehensive-text": "Cevaplarınızı 24 ideoloji üzerinden değerlendiriyoruz, bu sayı diğer testler arasındaki ün yüksek sayı.",
-    "international-title": "Uluslararası<br>sorular",
-    "international-text": "Sorularımız küresel kullanıcılar düşünülerek tek bir ülke veya kültüre ait olmaksızın tasarlandı.",
-    "anonymous-title": "Anonim<br>kalın",
-    "anonymous-text": "Açıkça sağladığınız bilgiler haricinde veri toplamıyoruz. İzin yoksa veri de yok.",
-    "evolving-title": "Sürekli<br>gelişir",
-    "evolving-text": "Güncel kalmak için elimizden gelenin en iyisini yapıyor ve testi sizden gelen sonuçlara göre yeniliyoruz."
-  },
+  "features-title": "Tüm ideolojiler.<br><span class=\"semi-bold\">Tek bir siyasi test.</span>",
+  "features-comprehensive-title": "Tam<br>kapsamlı",
+  "features-comprehensive-text": "Cevaplarınızı 24 ideoloji üzerinden değerlendiriyoruz, bu sayı diğer testler arasındaki ün yüksek sayı.",
+  "features-international-title": "Uluslararası<br>sorular",
+  "features-international-text": "Sorularımız küresel kullanıcılar düşünülerek tek bir ülke veya kültüre ait olmaksızın tasarlandı.",
+  "features-anonymous-title": "Anonim<br>kalın",
+  "features-anonymous-text": "Açıkça sağladığınız bilgiler haricinde veri toplamıyoruz. İzin yoksa veri de yok.",
+  "features-evolving-title": "Sürekli<br>gelişir",
+  "features-evolving-text": "Güncel kalmak için elimizden gelenin en iyisini yapıyor ve testi sizden gelen sonuçlara göre yeniliyoruz.",
 
-  "info": {
-    "title": "<span class=\"semi-bold\">Politivector</span> sayesinde<br><span class=\"semi-bold\">görüşlerinizi</span> keşfedin.",
-    "accordion-title-1": "Politivector nedir?",
-    "accordion-text-1": "Politivector, siyasal eğilimlerin göreceli bir özetini çıkartmak için hazırlanmış genel sorulardan oluşan bir testtir. <br><br>Politivector’ün arkasındaki asıl amaç hazırda varolan siyasi testlerin ülkeye bağlı dil ve olgularından bağımsız uluslararası bir test yaratmaktır. Her ülkenin siyasi yelpazesinin değiştiğinin farkındayız, ve hedefimiz siyasi eğilimleri en genel ancak bilgilendirici şekilde görselleştirmektir.",
-    "accordion-title-2": "Nasıl çalışıyor?",
-    "accordion-text-2": "Politivector 120 (tam versiyon) veya 60 (basit versiyon) çoktan seçmeli sorudan oluşan bir testtir. Her soruda siyasetle alakalı bir konu hakkında Kesinlikle Katılıyorum ile Kesinlikle Katılmıyorum arasında değişen görüşünüz sorulacaktır. <br><br>Her cevap, ilgili boyutta sonuç puanınızı etkileyecektir. Testiniz sonuçlandığında siyasi eğilimlerinizin cevaplarınızca belirlenen görsel bir özeti size sunulacaktır.",
-    "accordion-title-3": "Neden sonuçlarda \"En Yakın Eşleşme\" yok?",
-    "accordion-text-3": "Politivector, testi çözen herkese kültür ve milliyet fark etmeksizin küresel anlamda anlaşılabilecek sonuçlar sunmayı hedefliyor. Bizim gözlemimiz şu yöndedir ki; siyasi tutumu nitelendirmekte kullanılan dil bulunulan yere göre değişmektedir. Başka bir deyişle siyasi pusulanın merkezi her ülkede kaymaktadır.<br><br>Bu sebeple “En Yakın Eşleşme” veya ideolojik sınıflandırma özelliğini dahil etmeme tercihinde bulunduk."
-  },
+  "info-title": "<span class=\"semi-bold\">Politivector</span> sayesinde<br><span class=\"semi-bold\">görüşlerinizi</span> keşfedin.",
+  "info-accordion-title-1": "Politivector nedir?",
+  "info-accordion-text-1": "Politivector, siyasal eğilimlerin göreceli bir özetini çıkartmak için hazırlanmış genel sorulardan oluşan bir testtir. <br><br>Politivector’ün arkasındaki asıl amaç hazırda varolan siyasi testlerin ülkeye bağlı dil ve olgularından bağımsız uluslararası bir test yaratmaktır. Her ülkenin siyasi yelpazesinin değiştiğinin farkındayız, ve hedefimiz siyasi eğilimleri en genel ancak bilgilendirici şekilde görselleştirmektir.",
+  "info-accordion-title-2": "Nasıl çalışıyor?",
+  "info-accordion-text-2": "Politivector 120 (tam versiyon) veya 60 (basit versiyon) çoktan seçmeli sorudan oluşan bir testtir. Her soruda siyasetle alakalı bir konu hakkında Kesinlikle Katılıyorum ile Kesinlikle Katılmıyorum arasında değişen görüşünüz sorulacaktır. <br><br>Her cevap, ilgili boyutta sonuç puanınızı etkileyecektir. Testiniz sonuçlandığında siyasi eğilimlerinizin cevaplarınızca belirlenen görsel bir özeti size sunulacaktır.",
+  "info-accordion-title-3": "Neden sonuçlarda \"En Yakın Eşleşme\" yok?",
+  "info-accordion-text-3": "Politivector, testi çözen herkese kültür ve milliyet fark etmeksizin küresel anlamda anlaşılabilecek sonuçlar sunmayı hedefliyor. Bizim gözlemimiz şu yöndedir ki; siyasi tutumu nitelendirmekte kullanılan dil bulunulan yere göre değişmektedir. Başka bir deyişle siyasi pusulanın merkezi her ülkede kaymaktadır.<br><br>Bu sebeple “En Yakın Eşleşme” veya ideolojik sınıflandırma özelliğini dahil etmeme tercihinde bulunduk.",
 
-  "goals": {
-    "title": "Ne <span class=\"semi-bold\">başarmayı</span><br>amaçlıyoruz?",
-    "experience-title": "Bir deneyim sağlamak",
-    "experience-text": "Bu test, siyasete yeni başlayanlar için temel inançlarını hissetmeleri, sonuçlarını etraflarındakilerle karşılaştırmaları ve değerlerine dair içgörü elde etmeleri için harika bir kaynaktır. Kullanıcılarımızın Politivector'ü, dünyayı anlama yolculuklarının başlangıç noktası ya da ideolojilerinin periyodik denetimini olarak kullanmalarını bekliyoruz.",
-    "data-title": "Veri toplamak",
-    "data-text": "Yalnızca başka hiçbir yerde bulunmayan anonim verileri toplayarak, dünya genelindeki ideolojileri, zaman içinde nasıl değiştiklerini ve küresel olaylara nasıl tepki verdiklerini haritalandırmayı amaçlıyoruz. İnanç sistemlerimizin nasıl davrandığına dair veri odaklı bir anlayış, paha biçilemez bir bilgi kaynağı olmakla beraber siyaset sahnesinin şekillenmesinde aktif bir rol oynayabilir.",
-    "reports-title": "Raporlar üretmek",
-    "reports-text": "Veri, ham bilgi olduğunda anlamsızdır. Küresel ideolojiler için kullanışlı bir rehber sağlama vizyonumuzu gerçekleştirmek için bu bilgiyi bilgilendirici yollarla sunmamız gerekiyor. Politivector, en güncel anonim verilerin raporlarını, veri analizi ve görselleştirme ile hazırlayarak dünya inançlarının daha net bir resmini ortaya koymayı hedeflemektedir."
-  },
+  "goals-title": "Ne <span class=\"semi-bold\">başarmayı</span><br>amaçlıyoruz?",
+  "goals-experience-title": "Bir deneyim sağlamak",
+  "goals-experience-text": "Bu test, siyasete yeni başlayanlar için temel inançlarını hissetmeleri, sonuçlarını etraflarındakilerle karşılaştırmaları ve değerlerine dair içgörü elde etmeleri için harika bir kaynaktır. Kullanıcılarımızın Politivector'ü, dünyayı anlama yolculuklarının başlangıç noktası ya da ideolojilerinin periyodik denetimini olarak kullanmalarını bekliyoruz.",
+  "goals-data-title": "Veri toplamak",
+  "goals-data-text": "Yalnızca başka hiçbir yerde bulunmayan anonim verileri toplayarak, dünya genelindeki ideolojileri, zaman içinde nasıl değiştiklerini ve küresel olaylara nasıl tepki verdiklerini haritalandırmayı amaçlıyoruz. İnanç sistemlerimizin nasıl davrandığına dair veri odaklı bir anlayış, paha biçilemez bir bilgi kaynağı olmakla beraber siyaset sahnesinin şekillenmesinde aktif bir rol oynayabilir.",
+  "goals-reports-title": "Raporlar üretmek",
+  "goals-reports-text": "Veri, ham bilgi olduğunda anlamsızdır. Küresel ideolojiler için kullanışlı bir rehber sağlama vizyonumuzu gerçekleştirmek için bu bilgiyi bilgilendirici yollarla sunmamız gerekiyor. Politivector, en güncel anonim verilerin raporlarını, veri analizi ve görselleştirme ile hazırlayarak dünya inançlarının daha net bir resmini ortaya koymayı hedeflemektedir.",
 
-  "footer": {
-    "Home": "Anasayfa",
-    "Features": "Özellikler",
-    "Information": "Açıklamalar",
-    "Goals": "Hedefler",
-
-    "Future Plans": "Planlar",
-    "Questions": "Sorular",
-    "Data": "Veri",
-    "Results": "Sonuçlar",
-
-    "Take the Test": "Teste Başla",
-    "Complete Test": "Tam Test",
-    "Basic Test": "Basit Test",
-
-    "feedback-title": "Bize geri bildirimlerinizi gönderin",
-    "submit-button": "Gönder"
-  }
+  "footer-Home": "Anasayfa",
+  "footer-Features": "Özellikler",
+  "footer-Information": "Açıklamalar",
+  "footer-Goals": "Hedefler",
+  "footer-Future Plans": "Planlar",
+  "footer-Questions": "Sorular",
+  "footer-Data": "Veri",
+  "footer-Results": "Sonuçlar",
+  "footer-Take the Test": "Teste Başla",
+  "footer-Complete Test": "Tam Test",
+  "footer-Basic Test": "Basit Test",
+  "footer-feedback-title": "Bize geri bildirimlerinizi gönderin",
+  "footer-submit-button": "Gönder"
 }
