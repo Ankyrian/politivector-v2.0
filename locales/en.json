@@ -1,24 +1,73 @@
 {
-  "banner-title": "Get a sense of your <br><span class=\"semi-bold\">ideology</span> with <span class=\"semi-bold\">Politivector</span>.",
-  "banner-subtitle": "A global test designed for a global audience to better comprehend where they stand.",
-  "banner-button-primary": "Get Started",
-  "banner-button-secondary": "Learn More",
+  "menu": {
+    "home": "Home",
+    "future-plans": "Future Plans"
+  },
 
-  "features-title": "All ideologies.<br><span class=\"semi-bold\">One political test.</span>",
-  "feature-comprehensive-title": "Fully<br>comprehensive",
-  "feature-comprehensive-text": "We evaluate your answers across 24 ideologies, the most numerous among common tests.",
-  "feature-international-title": "International<br>questions",
-  "feature-international-text": "Our questions are designed with global users in mind, no single country, no single culture.",
-  "feature-anonymous-title": "Stay<br>anonymous",
-  "feature-anonymous-text": "Information you explicitly provide is all we are going to get. No permission means no data.",
-  "feature-evolving-title": "Constantly<br>evolving",
-  "feature-evolving-text": "We do our best to stay up-to-date, and renovate the test according to the results you provide.",
+  "test-select": {
+    "title": "Pick your test",
+    "complete-button": "Complete Test",
+    "complete-info": "(120 questions)",
+    "divider": "or",
+    "basic-button": "Basic Test",
+    "basic-info": "(60 questions)"
+  },
 
-  "goals-title": "What do we plan<br>to <span class=\"semi-bold\">accomplish</span>?",
-  "goals-experience-title": "Provide an experience",
-  "goals-experience-text": "This test is a great resource for newcomers to politics to feel their initial beliefs, compare their results with those around them, and get insight on their values. We expect our users to use Politivector as a starting point for their journey to understanding the world, or consider it as the periodic inspection of their ideologies.",
-  "goals-data-title": "Gather data",
-  "goals-data-text": "By gathering anonymous data that does not exist anywhere else we wish to map the world’s ideologies, how they shift over time, and how they react to global events. Data driven understanding of how our belief systems behave is invaluable knowledge, and may take an active role in shaping the political landscape for the better.",
-  "goals-reports-title": "Generate reports",
-  "goals-reports-text": "Data is meaningless when its raw information. In order to actualize our vision of providing a useful guide for global ideologies, we have to present this information in informative ways. Politivector will prepare reports of its most recent batches of anonymous data with data analysis and visualization to make a clearer picture of what the world believes."
+  "banner": {
+    "title": "Get a sense of your <br><span class=\"semi-bold\">ideology</span> with <span class=\"semi-bold\">Politivector</span>.",
+    "subtitle": "A global test designed for a global audience to better comprehend where they stand.",
+    "button-primary": "Get Started",
+    "button-secondary": "Learn More"
+  },
+
+  "features": {
+    "title": "All ideologies.<br><span class=\"semi-bold\">One political test.</span>",
+    "comprehensive-title": "Fully<br>comprehensive",
+    "comprehensive-text": "We evaluate your answers across 24 ideologies, the most numerous among common tests.",
+    "international-title": "International<br>questions",
+    "international-text": "Our questions are designed with global users in mind, no single country, no single culture.",
+    "anonymous-title": "Stay<br>anonymous",
+    "anonymous-text": "Information you explicitly provide is all we are going to get. No permission means no data.",
+    "evolving-title": "Constantly<br>evolving",
+    "evolving-text": "We do our best to stay up-to-date, and renovate the test according to the results you provide."
+  },
+
+  "info": {
+    "title": "Explore your <span class=\"semi-bold\">views</span><br>with <span class=\"semi-bold\">Politivector</span>.",
+    "accordion-title-1": "What is Politivector?",
+    "accordion-text-1": "Politivector is a test composed of general questions tailored to provide a relativistic summary of one’s political leanings. <br><br>The main intention behind Politivector is to create a more international alternative to preexisting political tests without country-specific language and concepts. We acknowledge that the political spectra for each country varies, and our goal is to visualize political tendencies in the most generic yet informative format possible.",
+    "accordion-title-2": "How does it work?",
+    "accordion-text-2": "Politivector is a test with 120 (complete version) or 60 (basic version) multiple choice questions. In each question, you will be given a prompt or a statement related to politics, and will be asked your opinion on the matter ranging from Strongly Agree to Strongly Disagree. <br><br>Each answer will then affect your final score in their respective dimensions. Once the test is complete, you will be provided a visual summary of your political tendencies determined through your answers.",
+    "accordion-title-3": "Why is there no \"Closest Match\"?",
+    "accordion-text-3": "Politivector aims to present globally applicable results to every individual who takes this test, regardless of cultural and national background. It is our observation that the nomenclature used to categorize political alignment is location-dependent. In other words, the origin point of the political compass shifts for each country. <br><br>Henceforth, we have made the decision to exclude a \"Closest Match\" or ideological classification feature."
+  },
+
+  "goals": {
+    "title": "What do we plan<br>to <span class=\"semi-bold\">accomplish</span>?",
+    "experience-title": "Provide an experience",
+    "experience-text": "This test is a great resource for newcomers to politics to feel their initial beliefs, compare their results with those around them, and get insight on their values. We expect our users to use Politivector as a starting point for their journey to understanding the world, or consider it as the periodic inspection of their ideologies.",
+    "data-title": "Gather data",
+    "data-text": "By gathering anonymous data that does not exist anywhere else we wish to map the world’s ideologies, how they shift over time, and how they react to global events. Data driven understanding of how our belief systems behave is invaluable knowledge, and may take an active role in shaping the political landscape for the better.",
+    "reports-title": "Generate reports",
+    "reports-text": "Data is meaningless when its raw information. In order to actualize our vision of providing a useful guide for global ideologies, we have to present this information in informative ways. Politivector will prepare reports of its most recent batches of anonymous data with data analysis and visualization to make a clearer picture of what the world believes."
+  },
+
+  "footer": {
+    "Home": "Home",
+    "Features": "Features",
+    "Information": "Information",
+    "Goals": "Goals",
+
+    "Future Plans": "Future Plans",
+    "Questions": "Questions",
+    "Data": "Data",
+    "Results": "Results",
+
+    "Take the Test": "Take the Test",
+    "Complete Test": "Complete Test",
+    "Basic Test": "Basic Test",
+
+    "feedback-title": "Give us your feedback",
+    "submit-button": "Submit Feedback"
+  }
 }
