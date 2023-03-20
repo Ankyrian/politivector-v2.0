@@ -5,6 +5,11 @@
   gap: 10px;
 
   #title {
+    // Added font
+    font-family: 'MuseoModerno', cursive;
+    font-feature-settings: "ss01" 1 ;
+    // above (Needs special class for variant glyphs, and font
+    // should be embedded. Google Fonts does not have the glyphs)
     font-size: var(--fs-primary);
     line-height: 100%;
   }
