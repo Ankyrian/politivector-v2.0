@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politivector</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/fonts.css">
+    <link rel="stylesheet" href="/stylesheets/index/index.css">
+</head>
+<body>
+    <div id="select">
+        <div id="popup">
+            <svg id="popup-cancel" viewBox="0 0 100 100">
+                <rect class="line" width="60" height="4" x="20" y="48" rx="2" fill="var(--clr-primary)"></rect>
+            </svg>
+            <p class="semi-bold"><%= __("test-select-title") %></p>
+            <button class="button primary"><%= __("test-select-complete-button") %></button>
+            <p class="question-count"><%= __("test-select-complete-info") %></p>
+            <p><%= __("test-select-divider") %></p>
+            <button class="button secondary"><%= __("test-select-basic-button") %></button>
+            <p class="question-count"><%= __("test-select-basic-info") %></p></div>
+        <div id="overlay"></div>
+    </div>
+    <div class="grid-container">
+        <header id="nav">
+            <div id="home-icon-container">
+                <object id="home-icon" data="/assets/navigation/home.svg" type="image/svg+xml"></object>
+            </div>
+            <svg id="menu-icon" viewBox="0 0 100 100">
+                <rect class="line top" width="60" height="4" x="20" y="23" rx="2" fill="var(--clr-primary)"></rect>
+                <rect class="line middle" width="60" height="4" x="20" y="48" rx="2" fill="var(--clr-primary)"></rect>
+                <rect class="line bottom" width="60" height="4" x="20" y="73" rx="2" fill="var(--clr-primary)"></rect>
+            </svg>
+        </header>
+        <div id="menu" style="height: auto;">
+            <ul id="menu-list">
+                <li><a class="link" href="/"><%= __("menu-home") %></a></li>
+                <li><a class="link" href="/future"><%= __("menu-future-plans") %></a></li>
+                <li>
+                    <div id="language-selector">
+                        <div class="language selected" id="en-selected"><img src="/assets/navigation/flags/en.png"
+                                                                             class="flag " alt="">
+                            <div class="arrow "></div>
+                        </div>
+                        <div class="collapsed" id="language-dropdown">
+                            <div class="language hidden" id="en"><img src="/assets/navigation/flags/en.png"
+                                                                      class="flag option" alt="">
+                                <div class="arrow invisible"></div>
+                            </div>
+                            <div class="language " id="tr"><img src="/assets/navigation/flags/tr.png"
+                                                                class="flag option" alt="">
+                                <div class="arrow invisible"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="banner"><p id="title"><%- __("banner-title") %></p>
+            <p id="subtitle"><%= __("banner-subtitle") %></p>
+            <div class="button-container">
+                <button class="button primary"><%= __("banner-button-primary") %></button>
+                <button class="button secondary"><%= __("banner-button-secondary") %></button>
+            </div>
+        </div>
+        <div id="hero">
+            <object data="/assets/index/illustrations/mobile/hero.svg" class="mobile" type="image/svg+xml"></object>
+            <object data="/assets/index/illustrations/desktop/hero.svg" class="desktop" type="image/svg+xml"></object>
+        </div>
+        <div id="features"><p class="section-title"><%= __("features-title") %></p>
+            <div class="feature-container">
+                <div class="feature">
+                    <object data="/assets/index/features/comprehensive.svg" class="feature-icon"
+                            type="image/svg+xml"></object>
+                    <p class="feature-title"><%= __("features-comprehensive-title") %></p>
+                    <p class="feature-text"><%= __("features-comprehensive-text") %></p></div>
+                <div class="feature">
+                    <object data="/assets/index/features/international.svg" class="feature-icon"
+                            type="image/svg+xml"></object>
+                    <p class="feature-title"><%= __("features-international-title") %></p>
+                    <p class="feature-text"><%= __("features-international-text") %></p></div>
+                <div class="feature">
+                    <object data="/assets/index/features/anonymous.svg" class="feature-icon"
+                            type="image/svg+xml"></object>
+                    <p class="feature-title"><%= __("features-anonymous-title") %></p>
+                    <p class="feature-text"><%= __("features-anonymous-text") %></p></div>
+                <div class="feature">
+                    <object data="/assets/index/features/evolving.svg" class="feature-icon"
+                            type="image/svg+xml"></object>
+                    <p class="feature-title"><%= __("features-evolving-title") %></p>
+                    <p class="feature-text"><%= __("features-evolving-text") %></p></div>
+            </div>
+        </div>
+        <div id="visual-info">
+            <object data="/assets/index/illustrations/mobile/visual-info.svg" class="mobile"
+                    type="image/svg+xml"></object>
+            <object data="/assets/index/illustrations/desktop/visual-info.svg" class="desktop"
+                    type="image/svg+xml"></object>
+        </div>
+        <div id="info"><p class="section-title"><%= __("info-title") %></p>
+            <div class="dropdown">
+                <div class="accordion-item">
+                    <div class="accordion-title"><p><%= __("info-accordion-title-1") %></p>
+                        <div class="arrow down"></div>
+                    </div>
+                    <div class="accordion-text" style="height: 126px;"><p><%= __("info-accordion-text-1") %></p></div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title"><p><%= __("info-accordion-title-2") %></p>
+                        <div class="arrow right"></div>
+                    </div>
+                    <div class="accordion-text" style="height: 0;"><p><%= __("info-accordion-text-2") %></p></div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title"><p><%= __("info-accordion-title-3") %></p>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="accordion-text"><p><%= __("info-accordion-text-3") %></p></div>
+                </div>
+            </div>
+        </div>
+        <div id="goals"><p class="section-title"><%= __("goals-title") %></p>
+            <div class="paragraph-item"><p class="semi-bold"><%= __("goals-experience-title") %></p>
+                <p><%= __("goals-experience-text") %></p></div>
+            <div class="paragraph-item"><p class="semi-bold"><%= __("goals-data-title") %></p>
+                <p><%= __("goals-data-text") %></p></div>
+            <div class="paragraph-item"><p class="semi-bold"><%= __("goals-reports-title") %></p>
+                <p><%= __("goals-reports-text") %></p></div>
+        </div>
+        <div id="visual-goals">
+            <object data="/assets/index/illustrations/desktop/visual-goals.svg" class="desktop"
+                    type="image/svg+xml"></object>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <div class="footer-list">
+                <div class="footer-item"><a href="/" class="semi-bold"><%= __("footer-Home") %></a><a
+                            href="/#features"><%= __("footer-Features") %></a><a
+                            href="/#info"><%= __("footer-Information") %></a><a
+                            href="/#goals"><%= __("footer-Goals") %></a></div>
+                <div class="footer-item"><a href="/future" class="semi-bold"><%= __("footer-Future Plans") %></a><a
+                            href="/future/#questions"><%= __("footer-Questions") %></a><a
+                            href="/future/#data"><%= __("footer-Data") %></a><a
+                            href="/future/#results"><%= __("footer-Results") %></a></div>
+                <div class="footer-item"><a href="" class="semi-bold"><%= __("footer-Take the Test") %></a><a
+                            href="#"><%= __("footer-Complete Test") %></a><a href="#"><%= __("footer-Basic Test") %></a>
+                </div>
+            </div>
+            <div class="feedback-box"><label for="feedback" class="semi-bold"><%= __("footer-feedback-title") %></label>
+                <form action="" method="post"><textarea id="feedback"></textarea><input type="button"
+                                                                                        name="submit-feedback"
+                                                                                        value="Submit Feedback"
+                                                                                        class="button secondary"></form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
