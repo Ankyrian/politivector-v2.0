@@ -15,6 +15,7 @@
 #menu #menu-list li .link {
   position: relative;
   display: inline-block;
+  font-family: "MuseoModerno", cursive;
   font-size: var(--fs-nav);
 }
 #menu #menu-list li .link::before {
