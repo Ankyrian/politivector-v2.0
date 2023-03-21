@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: var(--fs-body);
 }
-#features .section-title {
+#features h3 {
   text-align: center;
 }
 #features .feature-container {

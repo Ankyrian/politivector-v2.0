@@ -85,12 +85,25 @@ h4 {
   font-weight: var(--fw-medium);
 }
 
-.semi-bold {
-  font-weight: var(--fw-semibold);
+h1 {
+  font-size: var(--fs-primary);
+  line-height: 100%;
 }
 
-.section-title {
+h2 {
+  font-size: var(--fs-secondary);
+}
+
+h3 {
   font-size: var(--fs-tertiary);
+}
+
+h4 {
+  font-size: var(--fs-quaternary);
+}
+
+.semi-bold {
+  font-weight: var(--fw-semibold);
 }
 
 /*# sourceMappingURL=fonts.css.map */

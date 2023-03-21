@@ -4,15 +4,6 @@
   flex-direction: column;
   gap: 10px;
 }
-#banner #title {
-  font-family: "MuseoModerno", cursive;
-  font-feature-settings: "ss01" 1;
-  font-size: var(--fs-primary);
-  line-height: 100%;
-}
-#banner #subtitle {
-  font-size: var(--fs-secondary);
-}
 
 @media screen and (min-width: 50em) {
   #banner {
