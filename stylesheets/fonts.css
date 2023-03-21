@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;600&display=swap");
+@font-face {
+  font-family: "MuseoModerno";
+  font-weight: 400;
+  src: url("/fonts/MuseoModerno/MuseoModerno-Regular.woff2") format("woff2"), url("/fonts/MuseoModerno/MuseoModerno-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "MuseoModerno";
+  font-weight: 600;
+  src: url("/fonts/MuseoModerno/MuseoModerno-Medium.woff2") format("woff2"), url("/fonts/MuseoModerno/MuseoModerno-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "MuseoModerno";
+  font-weight: 800;
+  src: url("/fonts/MuseoModerno/MuseoModerno-SemiBold.woff2") format("woff2"), url("/fonts/MuseoModerno/MuseoModerno-SemiBold.woff") format("woff");
+}
 :root {
   /* Font rules */
   --font-family: "Poppins", sans-serif;
