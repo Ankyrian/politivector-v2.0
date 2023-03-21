@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("/fonts/Poppins/Poppins-Regular.woff") format("woff"), url("/fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("/fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("/fonts/Poppins/Poppins-SemiBold.ttf") format("ttf");
+}
 @font-face {
   font-family: "MuseoModerno";
   font-weight: 400;
