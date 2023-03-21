@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Poppins";
-  font-weight: 600;
+  font-weight: 800;
   src: url("/fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("/fonts/Poppins/Poppins-SemiBold.ttf") format("ttf");
 }
 @font-face {
@@ -28,7 +28,8 @@
   --font-family: "Poppins", sans-serif;
   font-size: 62.5%;
   --fw-regular: 400;
-  --fw-semibold: 600;
+  --fw-medium: 600;
+  --fw-semibold: 800;
   color: var(--clr-text-primary);
   font-family: var(--font-family);
   --fs-nav: 1.0rem;
@@ -75,6 +76,13 @@
     --fs-primary: 3.2rem;
     --fs-404: 9.0rem;
   }
+}
+
+h1,
+h3,
+h4 {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: var(--fw-medium);
 }
 
 .semi-bold {

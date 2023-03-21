@@ -33,10 +33,10 @@
 function createBanner(select, data) {
     const banner = Util.createObjectHTML('div', {'id': 'banner'});
 
-    const title = Util.createObjectHTML('p', {'id': 'title', 'data-locale': 'banner-title'});
+    const title = Util.createObjectHTML('h1', {'id': 'title', 'data-locale': 'banner-title'});
     title.innerHTML = data[title.getAttribute('data-locale')];
 
-    const subtitle = Util.createObjectHTML('p', {'id': 'subtitle', 'data-locale': 'banner-subtitle'});
+    const subtitle = Util.createObjectHTML('h2', {'id': 'subtitle', 'data-locale': 'banner-subtitle'});
     subtitle.innerText = data[subtitle.getAttribute('data-locale')];
 
     const buttonContainer = Util.createObjectHTML('div', {'class': 'button-container'});
@@ -66,7 +66,7 @@ function createBanner(select, data) {
 function createFeatures(data) {
     const features = Util.createObjectHTML('div', {'id': 'features'});
 
-    const title = Util.createObjectHTML('p', {'class': 'section-title', 'data-locale': 'features-title'});
+    const title = Util.createObjectHTML('h3', {'class': 'section-title', 'data-locale': 'features-title'});
     title.innerHTML = data[title.getAttribute('data-locale')];
 
     const featureContainer = Util.createObjectHTML('div', {'class': 'feature-container'});
@@ -100,7 +100,7 @@ function createFeatures(data) {
 function createGoals(data) {
     const goals = Util.createObjectHTML('div', {'id': 'goals'});
 
-    const title = Util.createObjectHTML('p', {'class': 'section-title', 'data-locale': 'goals-title'});
+    const title = Util.createObjectHTML('h3', {'class': 'section-title', 'data-locale': 'goals-title'});
     title.innerHTML = data[title.getAttribute('data-locale')];
 
     goals.appendChild(title);

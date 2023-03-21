@@ -2,7 +2,7 @@ class Info {
     constructor(locale, data) {
         this.info = Util.createObjectHTML('div', {'id': 'info'});
 
-        const title = Util.createObjectHTML('p', {'class': 'section-title', 'data-locale': 'info-title'});
+        const title = Util.createObjectHTML('h3', {'class': 'section-title', 'data-locale': 'info-title'});
         title.innerHTML = data[title.getAttribute('data-locale')];
         this.info.appendChild(title);
 
