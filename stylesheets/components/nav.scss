@@ -7,26 +7,50 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  #home-icon-container {
-    display: inline-block;
-    width: min-content;
-    height: 80%;
+  #logo-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
 
     #home-icon {
-      display: block;
-      //width: 100%;
-      height: 100%;
+      height: 50%;
       pointer-events: none;
-      max-width: none;
+      z-index: 1;
+      overflow: visible;
+
+      #rim {
+        z-index: 1;
+        transform-origin: center;
+        transition: transform 300ms ease-in-out;
+      }
+    }
+
+    #type-logo {
+      font-family: 'MuseoModerno', cursive;
+      font-size: var(--fs-tertiary);
+      font-weight: var(--fw-medium);
+      z-index: 0;
+      margin-left: 0;
+      padding-left: 5%;
     }
 
     pointer-events: auto;
     cursor: pointer;
+
+    &:hover {
+      #home-icon {
+        #rim {
+          transform: rotate(360deg);
+        }
+      }
+    }
   }
 
   #menu-icon {
     cursor: pointer;
-    height: 80%;
+    height: 50%;
     max-width: 75px;
 
     .line {
@@ -51,10 +75,12 @@ header {
   }
 }
 
-@media screen and (min-width: 50em){
+@media screen and (min-width: 50em) {
   header {
-    #home-icon {
-      height: 75%;
+    #logo-container {
+      #home-icon {
+        height: 50%;
+      }
     }
 
     #menu-icon {
