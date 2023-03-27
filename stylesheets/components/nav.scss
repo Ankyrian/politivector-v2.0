@@ -59,9 +59,9 @@ header {
   }
 }
 
-.close {
+.open {
   .top {
-    transform: translateY(25%);
+    transform: translateY(20.8333%);
     rotate: 45deg;
   }
 
@@ -70,7 +70,7 @@ header {
   }
 
   .bottom {
-    transform: translateY(-25%);
+    transform: translateY(-20.8333%);
     rotate: -45deg;
   }
 }

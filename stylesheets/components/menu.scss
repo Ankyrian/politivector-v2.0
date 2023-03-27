@@ -20,9 +20,7 @@
       .link {
         position: relative;
         display: inline-block;
-        // Added font
         font-family: 'MuseoModerno', cursive;
-        // above
         font-size: var(--fs-nav);
 
         &::before {

@@ -47,15 +47,15 @@ header #menu-icon .line {
   transform-origin: center;
 }
 
-.close .top {
-  transform: translateY(25%);
+.open .top {
+  transform: translateY(20.8333%);
   rotate: 45deg;
 }
-.close .middle {
+.open .middle {
   opacity: 0;
 }
-.close .bottom {
-  transform: translateY(-25%);
+.open .bottom {
+  transform: translateY(-20.8333%);
   rotate: -45deg;
 }
 
