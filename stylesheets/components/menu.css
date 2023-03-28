@@ -11,6 +11,7 @@
 #menu #menu-list li {
   display: flex;
   justify-content: center;
+  margin-top: 2px;
 }
 #menu #menu-list li .link {
   position: relative;
