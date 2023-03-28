@@ -14,27 +14,79 @@
   font-weight: var(--fw-medium);
   width: 100%;
   height: calc(var(--fs-button) * 2.5);
+  --size-arrow: calc(var(--fs-button) * 1.15);
   border: 1.5px solid var(--clr-text-primary);
   border-radius: calc(var(--fs-button) * 1.5);
+  scale: 0.99;
   cursor: pointer;
   transition: scale 200ms ease-in-out;
 }
 .button:hover {
-  scale: 1.01;
+  scale: 1;
 }
 .button:active {
   transition-duration: 100ms;
-  scale: 0.98;
+  scale: 0.97;
 }
 
 .primary {
   background-color: var(--clr-primary);
   color: var(--clr-text-secondary);
 }
+.primary::after {
+  content: "";
+  background-image: url("/assets/arrows/right.svg");
+  background-size: var(--size-arrow) var(--size-arrow);
+  height: var(--size-arrow);
+  width: var(--size-arrow);
+  margin-left: calc(var(--fs-button) / 3);
+}
+.primary:hover::after {
+  animation: arrow-right 1s linear infinite;
+}
+@keyframes arrow-right {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(5%);
+  }
+  75% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
 .secondary {
   background-color: var(--clr-background);
   color: var(--clr-text-primary);
+}
+.secondary::after {
+  content: "";
+  background-image: url("/assets/arrows/diagonal.svg");
+  background-size: var(--size-arrow) var(--size-arrow);
+  height: var(--size-arrow);
+  width: var(--size-arrow);
+  margin-left: calc(var(--fs-button) / 3);
+}
+.secondary:hover::after {
+  animation: arrow-diagonal 1s linear infinite;
+}
+@keyframes arrow-diagonal {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  25% {
+    transform: translate(5%, -5%);
+  }
+  75% {
+    transform: translate(-5%, 5%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
 }
 
 #aa {
