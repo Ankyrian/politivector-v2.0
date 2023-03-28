@@ -2,12 +2,14 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 10px;
+  gap: 7%;
+  margin-top: 3%;
 }
 
 @media screen and (min-width: 50em) {
   #banner {
     justify-content: flex-end;
+    gap: 10px;
     width: 90%;
   }
 }

@@ -11,7 +11,7 @@
     menuIcon.addEventListener('click', () => {
         const isOpen = menuIcon.getAttribute('class') === 'open';
         menuIcon.setAttribute('class', isOpen ? 'closed' : 'open');
-        menu.style.setProperty('height', isOpen ? '0px' : `${menuList.clientHeight}px`);
+        menu.style.setProperty('height', isOpen ? '0px' : `${menuList.clientHeight + 10}px`);
     });
 
     const mediaQuery = window.matchMedia('(min-width: 50em)');

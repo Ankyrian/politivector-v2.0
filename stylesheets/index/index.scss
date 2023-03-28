@@ -51,7 +51,7 @@ body {
 
 #banner {
   order: 3;
-  height: 45vh;
+  height: 40vh;
   min-height: 200px;
   max-height: 700px;
   padding: 3vh 0;
@@ -59,9 +59,10 @@ body {
 
 #hero {
   order: 2;
-  height: 45vh;
+  height: 48vh;
   min-height: 200px;
   max-height: 700px;
+  margin-top: 2vh;
 }
 
 #features {
