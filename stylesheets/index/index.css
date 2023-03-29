@@ -75,6 +75,7 @@ body {
   height: 30svh;
   min-height: 300px;
   max-height: 550px;
+  margin-top: 5svh;
 }
 
 #info {
@@ -89,6 +90,7 @@ body {
   height: 100svh;
   min-height: 300px;
   max-height: 1000px;
+  margin-top: 7svh;
 }
 
 #visual-goals {
@@ -137,22 +139,24 @@ footer {
     grid-column: 1/span 2;
     order: 4;
     height: 70svh;
-    margin-top: 20svh;
+    margin-top: 15svh;
   }
   #info {
     grid-column: 3/span 3;
     order: 5;
     height: 70svh;
-    margin-top: 20svh;
+    margin-top: 15svh;
   }
   #goals {
     grid-column: 1/span 3;
     height: 70svh;
+    margin-top: 5svh;
   }
   #visual-goals {
     grid-column: 4/span 2;
     display: block;
     height: 70svh;
+    margin-top: 5svh;
   }
   footer {
     height: auto;
