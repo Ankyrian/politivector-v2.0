@@ -12,8 +12,8 @@
   grid-template-columns: 48% 48%;
   grid-template-rows: 48% 48%;
   gap: 4%;
-  height: 90%;
-  margin-bottom: 2vh;
+  height: auto;
+  margin-bottom: 2svh;
 }
 #features .feature-container .feature {
   display: flex;
@@ -23,6 +23,7 @@
   width: 100%;
   border: 1.5px solid black;
   border-radius: calc(var(--fs-button) * 1);
+  scale: 0.98;
   transition: scale 200ms ease-in-out;
 }
 #features .feature-container .feature .feature-icon {
@@ -36,9 +37,10 @@
 #features .feature-container .feature .feature-text {
   font-size: var(--fs-body);
   padding-left: 5px;
+  margin-bottom: 25%;
 }
 #features .feature-container .feature:hover {
-  scale: 1.01;
+  scale: 1;
   cursor: default;
 }
 
@@ -50,7 +52,7 @@
   #features .feature-container {
     display: flex;
     gap: 3%;
-    height: auto;
+    height: 100%;
   }
   #features .feature-container .feature {
     padding: calc(var(--fs-tertiary));
