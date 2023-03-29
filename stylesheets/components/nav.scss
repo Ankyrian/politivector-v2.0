@@ -28,6 +28,7 @@ header {
     }
 
     #type-logo {
+      display: none;
       font-family: 'MuseoModerno', cursive;
       font-size: var(--fs-tertiary);
       font-weight: var(--fw-medium);
@@ -38,14 +39,6 @@ header {
 
     pointer-events: auto;
     cursor: pointer;
-
-    &:hover {
-      #home-icon {
-        #rim {
-          transform: rotate(360deg);
-        }
-      }
-    }
   }
 
   #menu-icon {
@@ -78,6 +71,10 @@ header {
 @media screen and (min-width: 50em) {
   header {
     #logo-container {
+      #type-logo {
+        display: inline-block;
+      }
+
       #home-icon {
         height: 50%;
       }
@@ -85,6 +82,14 @@ header {
 
     #menu-icon {
       display: none;
+    }
+
+    &:hover {
+      #home-icon {
+        #rim {
+          transform: rotate(360deg);
+        }
+      }
     }
   }
 }

@@ -28,15 +28,13 @@ header #logo-container #home-icon #rim {
   transition: transform 300ms ease-in-out;
 }
 header #logo-container #type-logo {
+  display: none;
   font-family: "MuseoModerno", cursive;
   font-size: var(--fs-tertiary);
   font-weight: var(--fw-medium);
   z-index: 0;
   margin-left: 0;
   padding-left: 5%;
-}
-header #logo-container:hover #home-icon #rim {
-  transform: rotate(360deg);
 }
 header #menu-icon {
   cursor: pointer;
@@ -60,11 +58,17 @@ header #menu-icon .line {
 }
 
 @media screen and (min-width: 50em) {
+  header #logo-container #type-logo {
+    display: inline-block;
+  }
   header #logo-container #home-icon {
     height: 50%;
   }
   header #menu-icon {
     display: none;
+  }
+  header:hover #home-icon #rim {
+    transform: rotate(360deg);
   }
 }
 
