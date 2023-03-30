@@ -14,6 +14,19 @@
     <script src="_scripts/_accordion.js" defer></script>
 </head>
 <body>
+    <div id="select">
+        <div id="popup">
+            <svg id="popup-cancel" viewBox="0 0 24 24">
+                <rect x="9" y="9" width="12" height="1.25" rx=".95" ry=".95"></rect>
+            </svg>
+            <p class="semi-bold">Pick your test</p>
+            <button class="button primary no-arrow">Complete Test</button>
+            <p class="question-count">(120 questions)</p>
+            <p>or</p>
+            <button class="button secondary no-arrow">Basic Test</button>
+            <p class="question-count">(60 questions)</p></div>
+        <div id="overlay"></div>
+    </div>
     <div class="grid-container">
         <header id="nav">
             <div id="logo-container">
@@ -113,7 +126,7 @@
                 </svg>
                 <p id="type-logo">politivector</p>
             </div>
-            <svg id="menu-icon" viewBox="0 0 24 24" fill="black" class="closed">
+            <svg id="menu-icon" viewBox="0 0 24 24" fill="var(--clr-text-primary)" class="closed">
                 <rect class="line top" x="3" y="6" width="18" height="2" rx=".95" ry=".95"></rect>
                 <rect class="line middle" x="3" y="11" width="18" height="2" rx=".95" ry=".95"></rect>
                 <rect class="line bottom" x="3" y="16" width="18" height="2" rx=".95" ry=".95"></rect>
