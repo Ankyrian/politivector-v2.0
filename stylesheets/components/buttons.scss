@@ -103,6 +103,12 @@
   }
 }
 
+.no-arrow {
+  &::after {
+    display: none;
+  }
+}
+
 #aa {
   background-color: var(--clr-answer-aa);
   color: var(--clr-text-secondary);
