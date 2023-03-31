@@ -1,19 +1,27 @@
 #content {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--fs-body) * 1.5);
+  gap: calc(var(--fs-body) * 3);
+
+  margin-top: 10svh;
 
   .content-item {
     display: flex;
     flex-direction: column;
     gap: calc(var(--fs-body) * 0.5);
 
-    .content-title {
-      font-size: var(--fs-quaternary);
+    h4 {
+      font-weight: var(--fw-medium);
     }
 
-    .content-text {
+    p {
       font-size: var(--fs-body);
     }
+  }
+}
+
+@media screen and (min-width: 50em){
+  #content {
+    margin-top: 5svh;
   }
 }

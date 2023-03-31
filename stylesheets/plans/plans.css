@@ -27,7 +27,7 @@ body {
 
 #nav {
   order: 0;
-  height: 10vh;
+  height: 10svh;
   min-height: 50px;
   max-height: 75px;
 }
@@ -40,10 +40,10 @@ body {
 
 #banner {
   order: 2;
-  height: 80vh;
+  height: 80svh;
   min-height: 200px;
-  max-height: 700px;
-  margin: 2.5vh 0 7.5vh 0;
+  max-height: 600px;
+  margin: 2.5svh 0 7.5svh 0;
   background: url("/assets/plans/mobile/banner.svg") center no-repeat;
   background-size: contain;
 }
@@ -51,11 +51,11 @@ body {
 #content {
   order: 3;
   height: auto;
-  margin-bottom: 10vh;
+  margin-bottom: 10svh;
 }
 
 footer {
-  height: 80vh;
+  height: 80svh;
   min-height: 300px;
   max-height: 600px;
 }
@@ -63,20 +63,21 @@ footer {
 @media screen and (min-width: 50em) {
   #nav {
     grid-column: 1/span 1;
-    height: 10vh;
+    height: 10svh;
   }
   #menu {
     grid-column: 2/span 4;
-    height: 10vh;
+    height: 10svh;
     min-height: 50px;
     max-height: 75px;
     transition: none;
   }
   #banner {
     grid-column: 1/span 5;
-    height: 70vh;
-    margin: 5vh 0 15vh 0;
+    height: 70svh;
+    margin: 5svh 0 15svh 0;
     background-image: url("/assets/plans/desktop/banner.svg");
+    background-size: 70%;
   }
   footer {
     height: auto;

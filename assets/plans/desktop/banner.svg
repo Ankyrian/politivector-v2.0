@@ -1,22 +1,15 @@
-<svg width="488" height="488" viewBox="0 0 488 488" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="5" y="5" width="478" height="478" stroke="black" stroke-width="2"/>
-<rect width="396" height="397" fill="#F5F5F5"/>
-<rect x="91" y="92" width="397" height="396" fill="#F5F5F5"/>
-<rect x="4.5" y="4.5" width="329" height="299" fill="#F5F5F5"/>
-<rect x="4.5" y="4.5" width="329" height="299" fill="url(#pattern0)"/>
-<rect x="4.5" y="4.5" width="329" height="299" stroke="#F5F5F5"/>
-<rect x="334.5" y="304.5" width="149" height="179" fill="#F5F5F5"/>
-<rect x="334.5" y="304.5" width="149" height="179" fill="url(#pattern1)"/>
-<rect x="334.5" y="304.5" width="149" height="179" stroke="#F5F5F5"/>
-<rect x="34" y="34" width="420" height="420" fill="#F5F5F5"/>
+<svg width="780" height="480" viewBox="0 0 780 480" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 384.249V455C0 468.807 11.1929 480 25 480H101.43C100.492 479.393 99.597 478.724 98.7512 478H25C12.2974 478 2 467.703 2 455V386.33C1.29424 385.676 0.626351 384.98 0 384.249ZM681.249 2C680.403 1.27595 679.508 0.607406 678.57 0H755C768.807 0 780 11.1929 780 25V95.6506C779.368 94.9949 778.7 94.3736 778 93.7898V25C778 12.2975 767.703 2 755 2H681.249Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 0C11.1929 0 0 11.1929 0 25V275C0 288.807 11.1929 300 25 300H30V55C30 41.1929 41.1929 30 55 30H536.25V25C536.25 11.1929 525.057 0 511.25 0H25Z" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M536.25 450V455C536.25 468.807 547.443 480 561.25 480H755C768.807 480 780 468.807 780 455V325C780 311.193 768.807 300 755 300H750V425C750 438.807 738.807 450 725 450H536.25Z" fill="url(#pattern1)"/>
 <defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0363636" height="0.04">
-<use xlink:href="#image0_733_144" transform="scale(0.0030303 0.00333333)"/>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0223776" height="0.04">
+<use xlink:href="#image0_814_424" transform="scale(0.0018648 0.00333333)"/>
 </pattern>
-<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0666667" height="0.0555556">
-<use xlink:href="#image1_733_144" transform="scale(0.00166667 0.00138889)"/>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0410256" height="0.0555556">
+<use xlink:href="#image1_814_424" transform="scale(0.00102564 0.00138889)"/>
 </pattern>
-<image id="image0_733_144" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB7czBDQAABENRYnBGsxm1gd4cNPm3l5rs5iiRbnGheHwHC4nnnMLVyXcXLmXXjQMAAAAASUVORK5CYII="/>
-<image id="image1_733_144" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7dfLDYMwEATQSSqgBJfmTkILqQhSAemAUmAtGfE5ABa214h50tyMmNNKA8wqyUfSSAafTmJRACPpMRfbpvdv1OyVW5asoMDiuNyUGgo6nC/YILOX/3HoN9m8UThXsA14/0dmruAv4P0XCtzpOHtm1BgUfqgnFuuz485KDaUDTUREaXHjXMGNc0XUjZNiX0TdOLfYJLG1AW8PN06Kgtw4MRhw4xARPcMIpxKNbc97aK4AAAAASUVORK5CYII="/>
+<image id="image0_814_424" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB7czBDQAABENRYnBGsxm1gd4cNPm3l5rs5iiRbnGheHwHC4nnnMLVyXcXLmXXjQMAAAAASUVORK5CYII="/>
+<image id="image1_814_424" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7dfLDYMwEATQSSqgBJfmTkILqQhSAemAUmAtGfE5ABa214h50tyMmNNKA8wqyUfSSAafTmJRACPpMRfbpvdv1OyVW5asoMDiuNyUGgo6nC/YILOX/3HoN9m8UThXsA14/0dmruAv4P0XCtzpOHtm1BgUfqgnFuuz485KDaUDTUREaXHjXMGNc0XUjZNiX0TdOLfYJLG1AW8PN06Kgtw4MRhw4xARPcMIpxKNbc97aK4AAAAASUVORK5CYII="/>
 </defs>
 </svg>

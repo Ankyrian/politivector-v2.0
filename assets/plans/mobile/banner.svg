@@ -1,22 +1,15 @@
-<svg width="344" height="720" viewBox="0 0 344 720" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="8" y="16" width="328" height="688" stroke="black" stroke-width="2"/>
-<rect width="279" height="595" fill="#F5F5F5"/>
-<rect x="65" y="125" width="279" height="595" fill="#F5F5F5"/>
-<rect x="7.5" y="15.5" width="239" height="152.333" fill="#F5F5F5"/>
-<rect x="7.5" y="15.5" width="239" height="152.333" fill="url(#pattern0)"/>
-<rect x="7.5" y="15.5" width="239" height="152.333" stroke="#F5F5F5"/>
-<rect x="234.5" y="437.167" width="102" height="267.333" fill="#F5F5F5"/>
-<rect x="234.5" y="437.167" width="102" height="267.333" fill="url(#pattern1)"/>
-<rect x="234.5" y="437.167" width="102" height="267.333" stroke="#F5F5F5"/>
-<rect x="37" y="45" width="270" height="630" fill="#F5F5F5"/>
+<svg width="330" height="690" viewBox="0 0 330 690" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 572.349V665C0 678.807 11.1929 690 25 690H60.0802C59.7951 689.347 59.537 688.68 59.3074 688H25C12.2974 688 2 677.703 2 665V574.21C1.2999 573.626 0.632198 573.005 0 572.349ZM270.693 2C270.463 1.31975 270.205 0.652613 269.92 0H305C318.807 0 330 11.1929 330 25V117.651C329.368 116.995 328.7 116.374 328 115.79V25C328 12.2975 317.703 2 305 2H270.693Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 0C11.1929 0 0 11.1929 0 25V128.333C0 142.14 11.1929 153.333 25 153.333H30V55C30 41.1929 41.1929 30 55 30H240V25C240 11.1929 228.807 0 215 0H25Z" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M227 661V665C227 678.807 238.193 690 252 690H305C318.807 690 330 678.807 330 665V566C330 552.193 318.807 541 305 541H300V636C300 649.807 288.807 661 275 661H227Z" fill="url(#pattern1)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.05" height="0.0782609">
-<use xlink:href="#image0_733_152" transform="scale(0.00416667 0.00652174)"/>
+<use xlink:href="#image0_814_467" transform="scale(0.00416667 0.00652174)"/>
 </pattern>
-<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0970874" height="0.0372671">
-<use xlink:href="#image1_733_152" transform="scale(0.00242718 0.000931677)"/>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0970874" height="0.0671141">
+<use xlink:href="#image1_814_467" transform="scale(0.00242718 0.00167785)"/>
 </pattern>
-<image id="image0_733_152" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB7czBDQAABENRYnBGsxm1gd4cNPm3l5rs5iiRbnGheHwHC4nnnMLVyXcXLmXXjQMAAAAASUVORK5CYII="/>
-<image id="image1_733_152" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7dfLDYMwEATQSSqgBJfmTkILqQhSAemAUmAtGfE5ABa214h50tyMmNNKA8wqyUfSSAafTmJRACPpMRfbpvdv1OyVW5asoMDiuNyUGgo6nC/YILOX/3HoN9m8UThXsA14/0dmruAv4P0XCtzpOHtm1BgUfqgnFuuz485KDaUDTUREaXHjXMGNc0XUjZNiX0TdOLfYJLG1AW8PN06Kgtw4MRhw4xARPcMIpxKNbc97aK4AAAAASUVORK5CYII="/>
+<image id="image0_814_467" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgB7czBDQAABENRYnBGsxm1gd4cNPm3l5rs5iiRbnGheHwHC4nnnMLVyXcXLmXXjQMAAAAASUVORK5CYII="/>
+<image id="image1_814_467" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7dfLDYMwEATQSSqgBJfmTkILqQhSAemAUmAtGfE5ABa214h50tyMmNNKA8wqyUfSSAafTmJRACPpMRfbpvdv1OyVW5asoMDiuNyUGgo6nC/YILOX/3HoN9m8UThXsA14/0dmruAv4P0XCtzpOHtm1BgUfqgnFuuz485KDaUDTUREaXHjXMGNc0XUjZNiX0TdOLfYJLG1AW8PN06Kgtw4MRhw4xARPcMIpxKNbc97aK4AAAAASUVORK5CYII="/>
 </defs>
 </svg>
