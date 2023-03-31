@@ -13,7 +13,7 @@
 
     function handlePopup(select) {
         select.style.setProperty('display', 'flex');
-        document.body.style.setProperty('overflow', 'none');
+        document.body.style.setProperty('overflow', 'hidden');
     }
 
     function handleCancel(select) {
