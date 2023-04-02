@@ -1,6 +1,5 @@
 #question {
   display: flex;
-  align-items: center;
   justify-content: center;
 
   #card {
@@ -8,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap: calc(var(--fs-tertiary) * 1.5);
     text-align: center;
 
     height: 90%;
@@ -18,29 +17,14 @@
 
     padding: 3vh;
 
-    border: 1.5px solid var(--clr-text-primary);
-    border-radius: 15px;
-
-    #question-number {
-      font-size: var(--fs-tertiary);
-
-      margin-bottom: var(--fs-nav);
-    }
-
     #question-text {
       font-size: var(--fs-body);
 
       height: calc(var(--fs-body) * 4 * 1.5);
-
-      margin-bottom: var(--fs-body);
     }
 
     .button-container {
-      gap: calc(var(--fs-button) / 3);
-
-      #back {
-        width: 75%;
-      }
+      gap: calc(var(--fs-button) / 1.25);
     }
   }
 }
@@ -48,7 +32,7 @@
 @media screen and (min-width: 50em) {
   #question {
     #card {
-      border-width: 2px;
+      width: 50%;
 
       .button-container {
         flex-direction: column;
