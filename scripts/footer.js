@@ -17,7 +17,7 @@ class Footer {
                 ]
             ),
             new Item(
-                {name: 'Future Plans', href: 'plans.html'},
+                {name: 'Future Plans', href: 'plans_old.html'},
                 [
                     {name: 'Questions', href: 'questions'},
                     {name: 'Data', href: 'data'},

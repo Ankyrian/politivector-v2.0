@@ -57,7 +57,7 @@ function createBanner(select, data) {
     });
 
     secondaryButton.addEventListener('click', () => {
-        window.location.href = 'plans.html'
+        window.location.href = 'plans_old.html'
     });
 
     return banner;

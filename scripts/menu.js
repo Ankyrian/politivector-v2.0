@@ -67,7 +67,7 @@ class Menu {
 
         const links = [
             new Link('Home', 'index.html'),
-            new Link('Future Plans', 'plans.html')
+            new Link('Future Plans', 'plans_old.html')
         ];
 
         for (const link of links) {
