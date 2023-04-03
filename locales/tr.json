@@ -62,5 +62,11 @@
   "plans-results-title": "Sonuçlar",
   "plans-results-text": "Şimdilik test sonuçlarını göstermek için basit bir yüzde bar formatı kullanıyoruz. Veri görselleştirmenin çok daha yaratıcı yolları mevcut ve bazılarını Politivector’e eklemeyi düşünebiliriz. <br><br>Sıkça kullanılan bir format siyasi pusula; Otoriter/Özgürlükçü ve Ekonomik Sol/Sağ eksenlerinin bulunduğu iki boyutlu bir koordinat düzlemi. Bu tarz bir görselleştirme Politivector’ün tüm 12 boyutuna uygulanamaz (insanlar 12D’yi algılamakta pek de başarılı değil), ancak birbiriyle ilişkili boyutlar bu şekilde görselleştirilebilir. <br><br>Politivector’den çıkan verileri nasıl görselleştirebileceğimizi daha da tartışıp bilgilendirici ve çekici olan bazı seçenekleri projemize ekleyebiliriz.",
   "plans-much-more-title": "Çok daha fazlası!",
-  "plans-much-more-text": "Kullanıcılarımızdan dönüt alabilmek için iletişim kanalları kuracak ve Politivector'ü hayal bile edemediğimiz şekillerde geliştireceğiz."
+  "plans-much-more-text": "Kullanıcılarımızdan dönüt alabilmek için iletişim kanalları kuracak ve Politivector'ü hayal bile edemediğimiz şekillerde geliştireceğiz.",
+
+  "questions-absolutely-agree": "Kesinlikle Katılıyorum",
+  "questions-partially-agree": "Kısmen Katılıyorum",
+  "questions-neutral": "Tarafsızım",
+  "questions-partially-disagree": "Kısmen Katılmıyorum",
+  "questions-absolutely-disagree": "Kesinlikle Katılmıyorum"
 }

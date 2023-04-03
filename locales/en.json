@@ -62,5 +62,11 @@
   "plans-results-title": "Results",
   "plans-results-text": "Currently, we are using a simple percentage bar format to display test results. There are much more imaginative ways of visualizing information, some of which we may choose to add into Politivector. <br><br>A conventional format is the political compass, which is a 2D plane containing Authoritarian/Liberal and Economic Left/Right axes. This form of visualization cannot be applied to all 12 dimensions of Politivector (humans are not good at comprehending 12D), but affiliated dimensions could be “plotted” against one another. <br><br>We will further discuss what visuals could be used to display information output by Politivector, and include ones we see informational and attractive.",
   "plans-much-more-title": "Much more!",
-  "plans-much-more-text": "We will establish channels of communication to receive feedback from our test takers, and improve Politivector in ways we could not imagine."
+  "plans-much-more-text": "We will establish channels of communication to receive feedback from our test takers, and improve Politivector in ways we could not imagine.",
+
+  "questions-absolutely-agree": "Absolutely Agree",
+  "questions-partially-agree": "Partially Agree",
+  "questions-neutral": "Neutral",
+  "questions-partially-disagree": "Partially Disagree",
+  "questions-absolutely-disagree": "Absolutely Disagree"
 }
