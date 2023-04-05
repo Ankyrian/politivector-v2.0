@@ -27,6 +27,7 @@ body {
   height: calc(var(--fs-body) * 2);
   padding: 0 var(--fs-body);
   font-size: var(--fs-body);
+  border-radius: 4px;
 }
 .axis .rail .rail-name {
   position: absolute;
