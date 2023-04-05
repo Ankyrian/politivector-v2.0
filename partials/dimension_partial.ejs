@@ -1,0 +1,14 @@
+<div class="axis">
+  <img src="<%= leftDimension.imageSrc %>" alt="<%= __(leftDimension.name) %> <%= __("icon") %>">
+  <div class="rail left" style="background-color: #<%= leftDimension.color %>; width: <%= resultsHandler.calculateWidth(leftPercent) %>%;">
+    <span class="rail-name"><%= __(leftDimension.name) %></span>
+    <span class="rail-percent"><%= leftPercent %>%</span>
+  </div>
+  <% if (neutralPercent > 0) %>
+    <div class="rail center" style="width: <%= resultsHandler.calculateWidth(neutralPercent) %>%;"><%= neutralPercent %>%</div>
+  <div class="rail right" style="background-color: #<%= rightDimension.color %>; width: <%= resultsHandler.calculateWidth(rightPercent) %>%;">
+    <span class="rail-name"><%= __(rightDimension.name) %></span>
+    <span class="rail-percent"><%= rightPercent %>%</span>
+  </div>
+  <img src="<%= rightDimension.imageSrc %>" alt="<%= rightDimension.name %> <%= __("icon") %>">
+</div>
