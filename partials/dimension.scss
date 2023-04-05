@@ -10,12 +10,13 @@ body {
   display: flex;
   place-items: center;
 
-  width: 600px;
+  width: 80%;
+  max-width: 600px;
 
   img {
     z-index: 1;
-    height: 75px;
-    margin: 0 -10px;
+    height:  calc(var(--fs-body) * 5);
+    margin: 0  calc(var(--fs-body) * -0.75);
 
     border: 3px solid var(--clr-background);
     border-radius: 100px;
@@ -27,18 +28,23 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    height: 25px;
+    height: calc(var(--fs-body) * 2);
 
-    padding: 0 15px;
+    padding: 0 var(--fs-body);
+
+    font-size: var(--fs-body);
 
     .rail-name {
       position: absolute;
-      top: -14px;
+      top: calc(var(--fs-body) * -1.3);
       margin: 0 -4px;
+
+      font-family: "MuseoModerno", cursive;
     }
 
     .rail-percent {
       color: var(--clr-text-secondary);
+      margin: 2px;
     }
   }
 
