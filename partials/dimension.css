@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.axis {
+  position: relative;
+  display: flex;
+  place-items: center;
+  width: 600px;
+}
+.axis img {
+  z-index: 1;
+  height: 75px;
+  margin: 0 -10px;
+  border: 3px solid var(--clr-background);
+  border-radius: 100px;
+  background-color: var(--clr-background);
+}
+.axis .rail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 0 15px;
+}
+.axis .rail .rail-name {
+  position: absolute;
+  top: -14px;
+  margin: 0 -4px;
+}
+.axis .rail .rail-percent {
+  color: var(--clr-text-secondary);
+}
+.axis .left {
+  justify-content: left;
+}
+.axis .center {
+  justify-content: center;
+}
+.axis .right {
+  justify-content: right;
+}
+
+/*# sourceMappingURL=dimension.css.map */
