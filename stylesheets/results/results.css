@@ -1,0 +1,72 @@
+@import "/stylesheets/components/buttons.css";
+@import "/stylesheets/components/footer.css";
+@import "/stylesheets/components/menu.css";
+@import "/stylesheets/components/nav.css";
+@import "/stylesheets/results/content.css";
+body {
+  margin: 8px 0 0;
+}
+
+.grid-container {
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#nav,
+#menu,
+#content {
+  grid-column: 1/span 5;
+}
+
+#nav {
+  order: 0;
+  height: 10vh;
+  min-height: 50px;
+  max-height: 75px;
+}
+
+#menu {
+  overflow: clip;
+  order: 1;
+  transition: height 300ms ease-in-out;
+}
+
+#content {
+  order: 2;
+  margin-top: 2.5vh;
+}
+
+footer {
+  height: 80vh;
+  min-height: 300px;
+  max-height: 600px;
+}
+
+@media screen and (min-width: 50em) {
+  #nav {
+    grid-column: 1/span 1;
+    height: 10vh;
+  }
+  #menu {
+    grid-column: 2/span 4;
+    height: 10vh;
+    min-height: 50px;
+    max-height: 75px;
+    transition: none;
+  }
+  #content {
+    grid-column: 1/span 5;
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+  }
+  footer {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=results.css.map */

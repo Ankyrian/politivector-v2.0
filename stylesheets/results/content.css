@@ -1,0 +1,14 @@
+#content h1 {
+  text-align: center;
+  margin-bottom: 5svh;
+}
+#content #panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1svh;
+  width: 100%;
+}
+
+/*# sourceMappingURL=content.css.map */
