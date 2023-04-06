@@ -1,5 +1,5 @@
 (function () {
-    const elems = document.querySelectorAll('h1, h3, h4');
+    const elems = document.querySelectorAll('h1, h3, h4, .rail-name');
     for (const e of elems) {
         const regex = /([Gw])/g;
         e.innerHTML = e.innerHTML.replaceAll(regex, (char) => {
