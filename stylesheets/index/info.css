@@ -16,7 +16,7 @@
   align-items: center;
   width: 100%;
   cursor: pointer;
-  transition: scale 200ms ease-in-out;
+  transition: scale 500ms ease-in-out;
 }
 #info .accordion-item .accordion-title .arrow {
   margin-top: 0;
