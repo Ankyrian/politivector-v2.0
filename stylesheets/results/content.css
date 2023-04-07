@@ -1,14 +1,84 @@
+#content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 #content h1 {
   text-align: center;
   margin-bottom: 5svh;
+  margin-top: -2svh;
 }
 #content #panel {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 1svh;
   width: 100%;
+}
+#content #panel .axis {
+  position: relative;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  max-width: 700px;
+  transition: scale 500ms ease-in-out;
+}
+#content #panel .axis:hover {
+  scale: 1.01;
+}
+#content #panel .axis img {
+  z-index: 1;
+  height: calc(var(--fs-body) * 3);
+  margin: 0 calc(var(--fs-body) * -0.75);
+  border: 3px solid var(--clr-background);
+  border-radius: 100px;
+  background-color: var(--clr-background);
+}
+#content #panel .axis .rail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: calc(var(--fs-body) * 1.5);
+  padding: 0 var(--fs-body);
+  font-size: var(--fs-nav);
+  border-radius: 4px;
+}
+#content #panel .axis .rail .rail-name {
+  position: absolute;
+  top: calc(var(--fs-body) * -1.15);
+  margin: 0 -4px;
+  font-family: "MuseoModerno", cursive;
+  font-size: calc(var(--fs-nav));
+}
+#content #panel .axis .rail .rail-percent {
+  color: var(--clr-text-secondary);
+  margin: 2px;
+}
+#content #panel .axis .left-aligned {
+  justify-content: left;
+}
+#content #panel .axis .center-aligned {
+  justify-content: center;
+}
+#content #panel .axis .right-aligned {
+  justify-content: right;
+}
+
+@media screen and (min-width: 50em) {
+  #content #panel {
+    gap: 1svh;
+  }
+  #content #panel .axis img {
+    height: calc(var(--fs-body) * 5);
+  }
+  #content #panel .axis .rail {
+    height: calc(var(--fs-body) * 2);
+    font-size: var(--fs-body);
+  }
+  #content #panel .axis .rail .rail-name {
+    top: calc(var(--fs-body) * -1.4);
+    font-size: var(--fs-body);
+  }
 }
 
 /*# sourceMappingURL=content.css.map */
