@@ -1,4 +1,4 @@
-@import "/stylesheets/components/buttons.css";
+@import "/css/components/buttons.css";
 
 body {
   display: flex;
@@ -30,6 +30,7 @@ body {
   }
 
   p {
+    font-size: var(--fs-body);
     padding: 2svh 0 4svh;
   }
 
