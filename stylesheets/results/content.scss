@@ -81,17 +81,7 @@
       }
 
       &:is(.blank) {
-        &:hover {
-          scale: 1;
-        }
-
-        .left-aligned, .right-aligned {
-          background-color: black !important;
-          width: 45%;
-        }
-
-        filter: grayscale(1);
-        opacity: .1;
+        display: none;
       }
     }
   }
