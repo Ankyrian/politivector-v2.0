@@ -1,14 +1,15 @@
-<div class="axis">
+<div class="axis <%= isNaN(leftPercent) ? 'blank' : ''%>">
   <img src="<%= leftDimension.imageSrc %>" alt="<%= __(leftDimension.name) %> <%= __("icon") %>">
-  <div class="rail left-aligned" style="background-color: #<%= leftDimension.color %>; width: <%= resultsHandler.calculateWidth(leftPercent) %>%;">
+  <div class="rail left-aligned" style="background-color: #<%= leftDimension.color %>; width: <%= resultsHandler.calculateWidth(leftPercent) %>%; <%= leftPercent > 0 ? '' : 'padding-right: 0;'%>;">
     <span class="rail-name"><%= __(leftDimension.name) %></span>
-    <span class="rail-percent"><%= leftPercent %>%</span>
+    <span class="rail-percent" style="<%= leftPercent > 0 ? '' : 'display: none;'%>"><%= leftPercent %>%</span>
   </div>
-  <% if (neutralPercent > 0) %>
+  <% if (neutralPercent > 0) { %>
     <div class="rail center-aligned" style="width: <%= resultsHandler.calculateWidth(neutralPercent) %>%;"><%= neutralPercent %>%</div>
-  <div class="rail right-aligned" style="background-color: #<%= rightDimension.color %>; width: <%= resultsHandler.calculateWidth(rightPercent) %>%;">
+  <% } %>
+  <div class="rail right-aligned" style="background-color: #<%= rightDimension.color %>; width: <%= resultsHandler.calculateWidth(rightPercent) %>%; <%= rightPercent > 0 ? '' : 'padding-left: 0;'%>;">
     <span class="rail-name"><%= __(rightDimension.name) %></span>
-    <span class="rail-percent"><%= rightPercent %>%</span>
+    <span class="rail-percent" style="<%= rightPercent > 0 ? '' : 'display: none;'%>"><%= rightPercent %>%</span>
   </div>
   <img src="<%= rightDimension.imageSrc %>" alt="<%= rightDimension.name %> <%= __("icon") %>">
 </div>
