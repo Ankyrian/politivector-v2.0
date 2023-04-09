@@ -63,6 +63,17 @@
 #content #panel .axis .right-aligned {
   justify-content: right;
 }
+#content #panel .axis:is(.blank) {
+  filter: grayscale(1);
+  opacity: 0.1;
+}
+#content #panel .axis:is(.blank):hover {
+  scale: 1;
+}
+#content #panel .axis:is(.blank) .left-aligned, #content #panel .axis:is(.blank) .right-aligned {
+  background-color: black !important;
+  width: 45%;
+}
 
 @media screen and (min-width: 50em) {
   #content #panel {
