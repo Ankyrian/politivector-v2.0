@@ -1,0 +1,28 @@
+<footer>
+    <div id="footer">
+        <div class="footer-list">
+            <div class="footer-item"><a href="/" class="semi-bold"><%= __("footer-home") %></a>
+                <a href="/#features"><%= __("footer-home-features") %></a>
+                <a href="/#info"><%= __("footer-home-information") %></a>
+                <a href="/#goals"><%= __("footer-home-goals") %></a>
+            </div>
+            <div class="footer-item">
+                <a href="/plans" class="semi-bold"><%= __("footer-plans") %></a>
+                <a href="/plans#questions"><%= __("footer-plans-questions") %></a>
+                <a href="/plans#data"><%= __("footer-plans-data") %></a>
+                <a href="/plans#results"><%= __("footer-plans-results") %></a>
+            </div>
+            <div class="footer-item">
+                <p class="semi-bold"><%= __("footer-test") %></p>
+                <a href="/start?test=complete"><%= __("footer-test-complete") %></a>
+                <a href="/start?test=basic"><%= __("footer-test-basic") %></a>
+            </div>
+        </div>
+        <div class="feedback-box">
+            <label for="feedback" class="semi-bold"><%= __("footer-feedback-title") %></label>
+            <form action="" method="post">
+                <textarea id="feedback"></textarea>
+                <input type="button" name="submit-feedback" value="<%= __("footer-feedback-submit") %>" class="button secondary"></form>
+        </div>
+    </div>
+</footer>
