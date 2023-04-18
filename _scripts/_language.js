@@ -4,7 +4,7 @@
     const selector = document.querySelector('#language-selector');
 
     const lang = selector.getAttribute('data-locale');
-    //const path = selector.getAttribute('data-path');
+    let path = selector.getAttribute('data-path');
 
     const selected = document.createElement('div');
     selected.setAttribute('id', `${lang}-selected`);
@@ -34,14 +34,16 @@
 
     window.addEventListener('click', (event) => {handleClickOut(event, selector)});
 
-    /*
     for (const option of dropdown.children) {
         const flag = option.children[0];
         flag.addEventListener('click', () => {
-            window.location.href = `${path}?lang=${flag.getAttribute('data-locale')}`;
+            const url = new URL(window.location.href);
+            const params = new URLSearchParams(url.search);
+            params.set('lang', flag.getAttribute('data-locale'));
+
+            window.location.href = `${path}?${params}`;
         });
     }
-    */
 })();
 
 function handleExpand(selector) {
