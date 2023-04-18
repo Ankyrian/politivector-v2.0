@@ -1,7 +1,7 @@
 (function () {
     const logo = document.querySelector('#logo-container');
     logo.addEventListener('click', () => {
-        window.location.href = 'index.html';
+        window.location.href = '/';
     });
 
     const menuIcon = document.querySelector('#menu-icon');
